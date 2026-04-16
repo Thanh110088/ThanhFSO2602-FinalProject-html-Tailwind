@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="w-full bg-[#f5f5f5] border-b text-gray-500 text-xs py-2">
+      <div
+        class="max-w-[1110px] mx-auto px-4 flex flex-row max-md:flex-col justify-between items-center max-md:gap-3"
+      >
+        <span>Welcome you to Drama store!</span>
+        <ul
+          class="flex flex-row max-sm:flex-wrap max-sm:justify-center items-center divide-x divide-gray-300"
+        >
+          <li class="px-3 max-sm:py-1">
+            <a href="#" class="flex items-center gap-1 hover:text-black">
+              <img
+                src="./assets/imgs/compare.svg"
+                class="w-4 h-4 opacity-70"
+                alt=""
+              />
+              Compare (0)
+            </a>
+          </li>
+          <li class="px-3 max-sm:py-1">
+            <a href="#" class="flex items-center gap-1 hover:text-black">
+              <img
+                src="./assets/imgs/wishlist.svg"
+                class="w-4 h-4 opacity-70"
+                alt=""
+              />
+              Wishlist (0)
+            </a>
+          </li>
+          <li class="px-3 max-sm:py-1">
+            <a href="#" class="flex items-center gap-1 hover:text-black">
+              Setting
+              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt="" />
+            </a>
+          </li>
+          <li class="px-3 max-sm:py-1">
+            <a href="#" class="flex items-center gap-1 hover:text-black"
+              >USD $
+              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt=""
+            /></a>
+          </li>
+          <li class="pl-3 max-sm:px-3">
+            <a href="#" class="flex items-center gap-1 hover:text-black">
+              <img src="./assets/imgs/america.svg" class="w-4 h-3" alt="" />
+              English
+              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="w-full bg-white py-8 max-md:py-4">
+      <div
+        class="max-w-[1110px] mx-auto px-4 flex flex-row max-lg:flex-col items-center justify-between gap-6"
+      >
+        <a
+          href="#"
+          class="w-1/4 max-lg:w-full flex lg:justify-start justify-center"
+        >
+          <img src="./assets/imgs/logo.svg" alt="Logo" class="h-10" />
+        </a>
+        <div class="w-1/2 max-lg:w-full">
+          <form
+            class="relative w-full border-2 border-[#3bb4ff] rounded-full h-12 overflow-hidden bg-white"
+          >
+            <input
+              type="text"
+              placeholder="Enter your search key ..."
+              class="w-full h-full pl-5 pr-[200px] max-sm:pr-[80px] outline-none text-sm"
+            />
+
+            <select
+              class="absolute top-0 right-[80px] h-full px-4 text-sm border-l border-gray-200 max-sm:hidden outline-none bg-white cursor-pointer"
+            >
+              <option>All categories</option>
+            </select>
+
+            <button
+              class="absolute top-0 right-0 h-full w-[80px] bg-[#3bb4ff] text-white hover:bg-[#2a9be6] transition flex justify-center items-center"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <div
+          class="w-1/4 max-lg:w-full flex items-center lg:justify-end justify-center gap-3"
+        >
+          <img src="./assets/imgs/support.svg" alt="" class="h-10 w-10" />
+          <div class="text-sm">
+            <p class="font-bold">
+              Call us:
+              <a href="tel:+11238889999" class="text-[#3bb4ff] font-normal"
+                >+1(123)8889999</a
+              >
+            </p>
+            <p class="text-gray-400">demo@postthemes.com</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg-[#0090F0]">
+      <nav class="max-w-[1120px] mx-auto">
+        <ul class="flex">
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open">Home</a>
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open"
+              >Electronics</a
+            >
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open"
+              >Women's Clothing</a
+            >
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open">Computer</a>
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open"
+              >Jewelry&Watches</a
+            >
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+          <li
+            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+          >
+            <a href="" class="text-white font-semibold font-open"
+              >Custom Menu</a
+            >
+            <img src="./assets/imgs/expand-with.svg" alt="" />
+          </li>
+        </ul>
+      </nav>
+      <div class="w-full bg-[#F5F5F5]">
+        <section
+          class="bg-[#F5F5F5] mx-auto max-w-[1120px] min-h-[500px] flex items-center justify-between px-20 py-10 relative"
+          aria-label="Featured Product"
+        >
+          <div class="w-1/2 space-y-6">
+            <p class="text-gray-500 italic uppercase tracking-widest text-sm">
+              Oh snap!
+            </p>
+
+            <h1 class="text-5xl font-bold text-[#2C3539] leading-tight">
+              The Pentax K-50<br />Dslr Camera
+            </h1>
+
+            <p class="text-gray-600 text-lg">Free Shipping On Order $250</p>
+
+            <a
+              href="/shop"
+              class="inline-block bg-[#0090F0] text-white font-semibold px-8 py-3 rounded-full hover:bg-blue-600 transition duration-300"
+            >
+              SHOP NOW
+            </a>
+          </div>
+
+          <div class="w-1/2 flex justify-center">
+            <img
+              src="./assets/imgs/camera.png"
+              alt="Silver Pentax K-50 DSLR Camera"
+              class="max-w-[500px] w-full object-contain"
+            />
+          </div>
+
+          <div
+            class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3"
+            role="group"
+            aria-label="Slide controls"
+          >
+            <button
+              aria-label="Go to slide 1"
+              class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition"
+            ></button>
+            <button
+              aria-label="Go to slide 2"
+              class="w-3 h-3 rounded-full bg-[#0090F0]"
+              aria-current="true"
+            ></button>
+            <button
+              aria-label="Go to slide 3"
+              class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition"
+            ></button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="w-full bg-white font-open">
+      <div class="max-w-[1120px] mx-auto px-4">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 py-10 border-b border-gray-200"
+        >
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/imgs/location.svg"
+              alt="Address icon"
+              class="w-10 h-10 object-contain"
+            />
+            <div>
+              <h3 class="font-semibold text-gray-800 text-base">
+                4710-4890 Breckinridge St, USK
+              </h3>
+              <p class="text-sm text-gray-500 mt-1">Contact Info!</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/imgs/email.svg"
+              alt="Email icon"
+              class="w-10 h-10 object-contain"
+            />
+            <div>
+              <h3 class="font-semibold text-gray-800 text-base">
+                Demo@Postthemes.Com
+              </h3>
+              <p class="text-sm text-gray-500 mt-1">Orders Support!</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <img
+              src="./assets/imgs/phone.svg"
+              alt="Phone icon"
+              class="w-10 h-10 object-contain"
+            />
+            <div>
+              <h3 class="font-semibold text-gray-800 text-base">
+                +1 (123) 888 9999, +1 (678) 777 8888
+              </h3>
+              <p class="text-sm text-gray-500 mt-1">Free support line!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-[1120px] mx-auto px-4 py-12">
+        <nav
+          aria-label="Footer Navigation"
+          class="grid grid-cols-2 md:grid-cols-4 gap-8"
+        >
+          <div>
+            <h3
+              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
+            >
+              Information
+              <span
+                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
+              ></span>
+            </h3>
+            <ul class="space-y-4 text-sm text-[#666666]">
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Delivery</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Secure payment</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Contact us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Sitemap</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Stores</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3
+              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
+            >
+              Products
+              <span
+                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
+              ></span>
+            </h3>
+            <ul class="space-y-4 text-sm text-[#666666]">
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Legal Notice</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Prices drop</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >New products</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Best sales</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Login</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >My account</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3
+              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
+            >
+              My Account
+              <span
+                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
+              ></span>
+            </h3>
+            <ul class="space-y-4 text-sm text-[#666666]">
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Personal info</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Orders</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Credit slips</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Addresses</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3
+              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
+            >
+              Useful Links
+              <span
+                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
+              ></span>
+            </h3>
+            <ul class="space-y-4 text-sm text-[#666666]">
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Exchanges</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Help</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Customer Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-[#0090F0] transition-colors"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="bg-[#F8F8F8] py-6 px-4">
+        <div
+          class="max-w-[1120px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <p class="text-sm text-[#888888]">
+            Copyright &copy; <strong class="text-[#555555]">Postthemes</strong>.
+            All Rights Reserved
+          </p>
+
+          <ul class="flex items-center gap-2">
+            <li>
+              <img
+                src="./assets/imgs/skrill.png"
+                alt="Pay with Skrill"
+                class="h-6 object-contain"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/imgs/bitcoin.png"
+                alt="Pay with Bitcoin"
+                class="h-6 object-contain"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/imgs/amex.png"
+                alt="Pay with Amex"
+                class="h-6 object-contain"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/imgs/paypal.png"
+                alt="Pay with PayPal"
+                class="h-6 object-contain"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/imgs/mastercard.png"
+                alt="Pay with Mastercard"
+                class="h-6 object-contain"
+              />
+            </li>
+            <li>
+              <img
+                src="./assets/imgs/visa.png"
+                alt="Pay with Visa"
+                class="h-6 object-contain"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="text-[13px] text-gray-500 italic">
+      Posted by <a href="#">Demo Postthemes</a>
+      <span class="mx-1">/</span>
+      <time datetime="2019-06-30">Jun 30TH, 2019</time>
+      <span class="mx-1">/</span>
+      <a href="#">Fashion</a>
+    </div>
+    <a
+      href="#"
+      class="relative block w-full h-64 rounded-lg overflow-hidden group"
+    >
+      <img
+        src="./assets/imgs/camera.png"
+        alt="GameSir G3w"
+        class="absolute inset-5 w-full h-full object-cover transition duration-500 group-hover:scale-110"
+      />
+
+      <div
+        class="absolute inset-10 bg-gradient-to-t from-black/80 to-transparent"
+      ></div>
+
+      <div
+        class="relative z-10 flex flex-col h-full justify-end text-white p-6"
+      >
+        <h3 class="text-2xl font-bold">GameSir G3w</h3>
+        <p class="text-sm font-light mt-1">Wired Edition Gamepad</p>
+      </div>
+    </a>
+  </body>
+</html>

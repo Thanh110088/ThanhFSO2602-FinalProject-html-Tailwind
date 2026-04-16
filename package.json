@@ -1,0 +1,10 @@
+{
+  "name": "drama-store",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
