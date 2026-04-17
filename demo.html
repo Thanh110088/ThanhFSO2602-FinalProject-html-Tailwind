@@ -521,5 +521,293 @@
         <p class="text-sm font-light mt-1">Wired Edition Gamepad</p>
       </div>
     </a>
+    <nav aria-label="Breadcrumb" class="w-full py-4 bg-white">
+      <div class="max-w-[1200px] mx-auto px-4">
+        <ol
+          class="flex items-center text-sm text-gray-600 font-sans m-0 p-0 list-none"
+        >
+          <li class="flex items-center">
+            <a href="/" class="hover:text-blue-600 transition-colors"
+              >Accueil</a
+            >
+
+            <span class="mx-2 text-gray-400" aria-hidden="true">/</span>
+          </li>
+
+          <li class="flex items-center">
+            <a href="/clothing" class="hover:text-blue-600 transition-colors"
+              >Clothing</a
+            >
+            <span class="mx-2 text-gray-400" aria-hidden="true">/</span>
+          </li>
+
+          <li>
+            <span class="text-[#3eb1ff] font-medium" aria-current="page"
+              >Women's Clothing</span
+            >
+          </li>
+        </ol>
+      </div>
+    </nav>
+    <aside class="w-[250px] font-sans text-[13px] text-gray-600">
+      <div class="mb-6 relative">
+        <h2 class="text-[16px] font-bold text-gray-800 pb-2">Filtrer Par</h2>
+        <div class="absolute bottom-0 left-0 w-full h-[1px] bg-gray-200"></div>
+        <div class="absolute bottom-0 left-0 w-10 h-[2px] bg-[#3eb1ff]"></div>
+      </div>
+
+      <form action="#" method="GET">
+        <button
+          type="reset"
+          class="flex items-center gap-2 bg-[#2d3e4d] text-white px-4 py-2 font-semibold hover:bg-gray-800 transition-colors mb-8"
+        >
+          <span class="text-gray-400 text-lg leading-none">&times;</span>
+          Effacer Tout
+        </button>
+
+        <fieldset class="mb-6">
+          <legend class="font-bold text-gray-800 mb-3 text-[14px]">
+            Catégories
+          </legend>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-3">
+              <input
+                type="checkbox"
+                id="cat1"
+                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
+              />
+              <label for="cat1" class="cursor-pointer hover:text-[#3eb1ff]"
+                >Hot Categories (13)</label
+              >
+            </li>
+            <li class="flex items-center gap-3">
+              <input
+                type="checkbox"
+                id="cat2"
+                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
+              />
+              <label for="cat2" class="cursor-pointer hover:text-[#3eb1ff]"
+                >Outerwear & Jackets (13)</label
+              >
+            </li>
+            <li class="flex items-center gap-3">
+              <input
+                type="checkbox"
+                id="cat3"
+                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
+              />
+              <label for="cat3" class="cursor-pointer hover:text-[#3eb1ff]"
+                >Weddings & Events (13)</label
+              >
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="mb-6">
+          <legend class="font-bold text-gray-800 mb-3 text-[14px]">Prix</legend>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-3">
+              <input
+                type="radio"
+                id="price1"
+                name="price"
+                value="8-10"
+                class="w-3.5 h-3.5 border-gray-300 text-[#3eb1ff] focus:ring-0 cursor-pointer"
+              />
+              <label for="price1" class="cursor-pointer hover:text-[#3eb1ff]"
+                >8,00 $US - 10,00 $US (2)</label
+              >
+            </li>
+            <li class="flex items-center gap-3">
+              <input
+                type="radio"
+                id="price2"
+                name="price"
+                value="11-12"
+                class="w-3.5 h-3.5 border-gray-300 text-[#3eb1ff] focus:ring-0 cursor-pointer"
+              />
+              <label for="price2" class="cursor-pointer hover:text-[#3eb1ff]"
+                >11,00 $US - 12,00 $US (3)</label
+              >
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="mb-6">
+          <legend class="font-bold text-gray-800 mb-3 text-[14px]">
+            Couleur
+          </legend>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-3">
+              <input type="checkbox" id="color-gris" class="peer sr-only" />
+              <label
+                for="color-gris"
+                class="w-3.5 h-3.5 bg-gray-400 cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300"
+              ></label>
+              <label
+                for="color-gris"
+                class="cursor-pointer hover:text-[#3eb1ff]"
+                >Gris (1)</label
+              >
+            </li>
+
+            <li class="flex items-center gap-3">
+              <input type="checkbox" id="color-blanc" class="peer sr-only" />
+              <label
+                for="color-blanc"
+                class="w-3.5 h-3.5 bg-white cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-300 border border-gray-300"
+              ></label>
+              <label
+                for="color-blanc"
+                class="cursor-pointer hover:text-[#3eb1ff]"
+                >Blanc (4)</label
+              >
+            </li>
+
+            <li class="flex items-center gap-3">
+              <input type="checkbox" id="color-camel" class="peer sr-only" />
+              <label
+                for="color-camel"
+                class="w-3.5 h-3.5 bg-[#bfa175] cursor-pointer peer-checked:ring-2 ring-offset-1 ring-[#bfa175] border border-gray-300"
+              ></label>
+              <label
+                for="color-camel"
+                class="cursor-pointer hover:text-[#3eb1ff]"
+                >Camel (1)</label
+              >
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="mb-8">
+          <legend
+            class="font-bold text-gray-800 mb-3 text-[14px] border-b border-gray-100 pb-2 w-full"
+          >
+            Tags
+          </legend>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <a
+              href="#"
+              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
+              >Computer</a
+            >
+            <a
+              href="#"
+              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
+              >Sale</a
+            >
+            <a
+              href="#"
+              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
+              >Electronics</a
+            >
+          </div>
+        </fieldset>
+      </form>
+
+      <a href="#" class="block w-full overflow-hidden bg-gray-100 rounded">
+        <div
+          class="w-full h-[300px] flex items-center justify-center text-gray-400 border border-gray-200"
+        >
+          Banner Image (H2 Sport)
+        </div>
+      </a>
+    </aside>
+    <label class="flex items-center gap-3 cursor-pointer group">
+      <input type="checkbox" class="peer sr-only" />
+
+      <div
+        class="w-6 h-6 border-2 border-gray-300 rounded-md peer-checked:bg-blue-500 peer-checked:border-blue-500 flex items-center justify-center transition-colors"
+      >
+        <svg
+          class="w-4 h-4 text-white opacity-0 peer-checked:opacity-100"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            d="M5 13l4 4L19 7"
+          />
+        </svg>
+      </div>
+
+      <span class="text-gray-700">Đồng ý với điều khoản</span>
+    </label>
+
+    <div
+      class="flex items-center justify-between bg-[#f5f5f5] px-4 py-3 rounded-md w-full max-w-5xl font-sans"
+    >
+      <div class="flex items-center gap-x-8">
+        <div class="flex items-center gap-x-3">
+          <button
+            class="text-[#0090F0] hover:opacity-80 transition-opacity focus:outline-none"
+            aria-label="Grid view"
+          >
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="3" y="3" width="4" height="4" rx="1" />
+              <rect x="10" y="3" width="4" height="4" rx="1" />
+              <rect x="17" y="3" width="4" height="4" rx="1" />
+              <rect x="3" y="10" width="4" height="4" rx="1" />
+              <rect x="10" y="10" width="4" height="4" rx="1" />
+              <rect x="17" y="10" width="4" height="4" rx="1" />
+              <rect x="3" y="17" width="4" height="4" rx="1" />
+              <rect x="10" y="17" width="4" height="4" rx="1" />
+              <rect x="17" y="17" width="4" height="4" rx="1" />
+            </svg>
+          </button>
+
+          <button
+            class="text-gray-300 hover:text-gray-400 transition-colors focus:outline-none"
+            aria-label="List view"
+          >
+            <svg
+              class="w-6 h-6"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+        <span class="text-[#888888] text-sm tracking-wide"
+          >Il Y A 13 Produits.</span
+        >
+      </div>
+
+      <div class="flex items-center gap-x-3">
+        <span class="text-[#888888] text-sm">Trier Par :</span>
+
+        <div class="relative">
+          <select
+            class="appearance-none bg-white border border-gray-200 text-[#4a4a4a] text-sm rounded-full pl-5 pr-10 py-1.5 focus:outline-none focus:ring-1 focus:ring-[#0090F0] cursor-pointer min-w-[180px]"
+          >
+            <option value="pertinence">Pertinence</option>
+            <option value="prix-croissant">Prix Croissant</option>
+            <option value="prix-decroissant">Prix Décroissant</option>
+          </select>
+
+          <div
+            class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4 text-gray-500"
+          >
+            <svg
+              class="w-4 h-4 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -16,13 +16,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
+  
   <body class="font-open bg-white">
-    <div class="bg-[#F7F7F7] w-full">
+    <!-- thanh điều khiển trên cũng -->
+    <section class="bg-[#F7F7F7] w-full">
       <div class="max-w-[1110px] mx-auto py-4 flex justify-between">
         <span class="text-xs">Welcome you to Drama store! </span>
         <ul class="flex items-center divide-x-2 divide-[#BFBFBF]">
           <li class="px-4 text-xs">
-            <a href="#"
+            <a href="#" class="flex gap-1"
               ><img
                 src="./assets/imgs/compare.svg"
                 alt="compare"
@@ -31,7 +33,7 @@
             >
           </li>
           <li class="px-4 text-xs">
-            <a href="#">
+            <a href="#" class="flex gap-1">
               <img
                 src="./assets/imgs/wishlist.svg"
                 alt=""
@@ -40,7 +42,7 @@
             </a>
           </li>
           <li class="px-4 text-xs">
-            <a href="#"
+            <a href="#" class="flex gap-1"
               >Setting<img
                 src="./assets/imgs/expand_more.svg"
                 class="inline"
@@ -48,23 +50,28 @@
             /></a>
           </li>
           <li class="px-4 text-xs">
-            <a href="#"
+            <a href="#" class="flex gap-1"
               >USD$
               <img src="./assets/imgs/expand_more.svg" class="inline" alt=""
             /></a>
           </li>
           <li class="px-4 text-xs">
-            <a href="#">
-              English
-              <img src="./assets/imgs/america.svg" class="inline" alt="" />
+            <a href="#" class="flex gap-1">
+              <img
+                src="./assets/imgs/america.svg"
+                class="inline"
+                alt=""
+              />English
               <img src="./assets/imgs/expand_more.svg" alt="" class="inline" />
             </a>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="bg-white">
-      <header class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
+    </section>
+    
+    <header class="bg-white">
+      <!-- thanh chứa logo -->
+      <section class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
         <img src="./assets/imgs/logo.svg" alt="logo" />
 
         <form
@@ -92,15 +99,16 @@
             <p>demo@postthemes.com</p>
           </div>
         </div>
-      </header>
-      <div class="bg-[#0090F0]">
+      </section>
+      <!-- thanh nav -->
+      <section class="bg-[#0090F0]">
         <nav class="max-w-[1120px] mx-auto">
           <ul class="flex">
             <li
-              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
             >
               <a href="" class="text-white font-semibold font-open">Home</a>
-              <img src="./assets/imgs/expand-with.svg" alt="" />
+              
             </li>
             <li
               class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
@@ -119,18 +127,18 @@
               <img src="./assets/imgs/expand-with.svg" alt="" />
             </li>
             <li
-              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
             >
               <a href="" class="text-white font-semibold font-open">Computer</a>
-              <img src="./assets/imgs/expand-with.svg" alt="" />
+              
             </li>
             <li
-              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
             >
               <a href="" class="text-white font-semibold font-open"
                 >Jewelry&Watches</a
               >
-              <img src="./assets/imgs/expand-with.svg" alt="" />
+              
             </li>
             <li
               class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
@@ -142,8 +150,8 @@
             </li>
           </ul>
         </nav>
-      </div>
-
+      </section>
+    <!-- thanh hero banner -->
       <div class="bg-[#F5F5F5] relative mb-14">
         <section
           class="flex justify-between items-center max-w-[1120px] mx-auto"
