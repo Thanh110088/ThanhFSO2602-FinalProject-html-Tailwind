@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+     <!-- thanh trên cùng màu xám -->
+     <section class="bg-[#F7F7F7] w-full">
+      <div class="max-w-[1110px] mx-auto py-4 flex justify-between">
+        <span class="text-xs">Welcome you to Drama store! </span>
+        <ul class="flex items-center divide-x-2 divide-[#BFBFBF]">
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              ><img
+                src="./assets/imgs/compare.svg"
+                alt="compare"
+                class="inline"
+              />Compare(0)</a
+            >
+          </li>
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1">
+              <img
+                src="./assets/imgs/wishlist.svg"
+                alt=""
+                class="inline"
+              />Wishlist(0)
+            </a>
+          </li>
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              >Setting<img
+                src="./assets/imgs/expand_more.svg"
+                class="inline"
+                alt=""
+            /></a>
+          </li>
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              >USD$
+              <img src="./assets/imgs/expand_more.svg" class="inline" alt=""
+            /></a>
+          </li>
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1">
+              <img
+                src="./assets/imgs/america.svg"
+                class="inline"
+                alt=""
+              />English
+              <img src="./assets/imgs/expand_more.svg" alt="" class="inline" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- thanh trên cùng màu xám -->
+    <!-- thanh chứa logo -->
+     <header class="bg-white">
+      <!-- thanh chứa logo -->
+      <section class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
+        <img src="./assets/imgs/logo.svg" alt="logo" />
+
+        <form
+          action=""
+          class="max-w-[450px] py-4 px-7 relative w-full h-full border-2 border-gray-200 rounded-full overflow-hidden bg-white"
+        >
+          <input
+            type="text"
+            placeholder="Enter your search key..."
+            class="w-full h-full border-none outline-none pr-[200px]"
+          />
+          <select name="" id="" class="absolute top-0 right-[76px] py-4 px-3">
+            <option>All categories</option>
+          </select>
+          <button class="bg-[#0090F0] absolute py-4 px-7 top-0 right-0">
+            <img src="./assets/imgs/search.svg" alt="" />
+          </button>
+        </form>
+
+        <div class="flex items-center">
+          <img src="./assets/imgs/address.svg" alt="" />
+          <div>
+            <p>Call us: <a href="">+1(123)8889999</a></p>
+
+            <p>demo@postthemes.com</p>
+          </div>
+        </div>
+      </section>
+      <!-- thanh nav -->
+      <section class="bg-[#0090F0]">
+        <nav class="max-w-[1120px] mx-auto">
+          <ul class="flex">
+            <li
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open">Home</a>
+              
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Electronics</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Women's Clothing</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open">Computer</a>
+              
+            </li>
+            <li
+              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Jewelry&Watches</a
+              >
+              
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Custom Menu</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+      </section> 
+      <!-- thanh chứa logo -->
+
+      <!-- thanh bên phải chứa  sản phẩm -->
+       <section class="mx-auto max-w-[1120px] mt-14 grid grid-cols-3 gap-3">
+        <section class="col-span-2 ">
+            <h1 class="font-semibold text-xl font-open border-b-2 border-gray-300  py-3">Shopping Cart</h1>
+            <ul class="">
+                <li class="py-3">
+                    <article class="flex justify-between items-start">
+                    <figure>
+                        <img src="./assets/imgs/brixton.png" alt="">
+                    </figure>
+
+                    <div class="">
+                        <h2 class="font-normal text-base text-[#253237] font-open mb-4">Brixton Patrol All Terrain <br>Anorak Jacket</h2>
+                        <p class="font-open text-sm text-[#888888] mb-1">$29.00</p>
+                        <dl class="flex gap-1">
+                            <dt class="">Dimension:</dt>
+                            <dd class="">40x60cm</dd>
+                        </dl>
+                    </div>
+
+                    <div class="flex items-start border border-gray-300 ">
+                        
+                        <input type="number" min="1" value="1" class="max-w-[55px] py-3 px-2 border-r border-gray-300" >
+                        <div class="flex flex-col">
+                            <button class="h-1/2 flex  items-center border-b border-gray-300">▲</button> 
+                            <button class="h-1/2 flex items-center  border-gray-300">▼</button>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <strong class="text-sm text-gray-500 font-normal">$29.00</strong>
+                    </div>
+
+                    <button class="">
+                        <img src="./assets/imgs/delete.svg" alt="">
+                    </button>
+
+                    </article>
+                </li>
+            </ul>
+        </section>
+        <aside class="col-span-1 mt-2">
+        <div class="border-2 ">
+        <div class="border-b-2">
+            <dl class="py-3 px-3">
+                <div class="mb-1 flex justify-between">
+                    <dt class="font-bold text-base font-open">4 items</dt>
+                    <dd class="font-bold text-base font-open">$78.92</dd>
+                </div>
+                <div class="mb-1 flex justify-between">
+                    <dt class="font-bold text-base font-open">Shipping</dt>
+                    <dd class="font-bold text-base font-open">$7.00</dd>
+                </div>  
+            </dl> 
+        </div> 
+        <div class="border-b-2">
+            <dl class="py-3 px-3">
+                <div class="mb-1 flex justify-between">
+                    <dt class="font-bold text-base font-open">Total (tax excl.)</dt>
+                    <dd class="font-bold text-base font-open">$85.92</dd>
+                </div>
+                <div class="mb-1 flex justify-between">
+                    <dt class="font-bold text-base font-open">Taxes</dt>
+                    <dd class="font-bold text-base font-open">$0.00</dd>
+                </div>  
+            </dl>
+        </div>
+         
+        <div class="p-3 flex justify-center">
+        <button class="py-3 rounded-md  text-white text-sm font-normal bg-black px-5">Proceed to checkout</button>
+        </div>
+        </div>
+        <ul class="flex justify-between items-start mt-2">
+            <li class="flex items-start">
+                <img src="./assets/imgs/freeship.svg" alt="">
+                <p class="font-normal text-sm text-[#888888]">Free <br>Shipping <br>Ships <br>Today</p>
+            </li>
+            <li class="flex items-start">
+                <img src="./assets/imgs/back.svg" alt="">
+                <p class="font-normal text-sm text-[#888888]">Easy <br>Returns</p>
+            </li>
+            <li class="flex items-start">
+                <img src="./assets/imgs/lowest-price.svg" alt="">
+                <p class="font-normal text-sm text-[#888888]">Lowest <br>Price <br>Guarantee</p>
+            </li>
+        </ul>
+        </aside>
+        
+       </section>
+      
+  </body>
+</html>
