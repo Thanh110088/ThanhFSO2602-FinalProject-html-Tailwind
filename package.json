@@ -2,7 +2,8 @@
   "name": "drama-store",
   "version": "1.0.0",
   "scripts": {
-    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
