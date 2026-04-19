@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,1588 +16,1764 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
-  <body>
-    <div class="w-full bg-[#f5f5f5] border-b text-gray-500 text-xs py-2">
-      <div
-        class="max-w-[1110px] mx-auto px-4 flex flex-row max-md:flex-col justify-between items-center max-md:gap-3"
-      >
-        <span>Welcome you to Drama store!</span>
-        <ul
-          class="flex flex-row max-sm:flex-wrap max-sm:justify-center items-center divide-x divide-gray-300"
-        >
-          <li class="px-3 max-sm:py-1">
-            <a href="#" class="flex items-center gap-1 hover:text-black">
-              <img
+
+  <body class="font-open bg-white">
+    <div class="bg-[#F7F7F7] w-full">
+      <div class="max-w-[1110px] mx-auto py-4 flex justify-between">
+        <span class="text-xs">Welcome you to Drama store! </span>
+        <ul class="flex items-center divide-x-2 divide-[#BFBFBF]">
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              ><img
                 src="./assets/imgs/compare.svg"
-                class="w-4 h-4 opacity-70"
-                alt=""
-              />
-              Compare (0)
-            </a>
+                alt="compare"
+                class="inline"
+              />Compare(0)</a
+            >
           </li>
-          <li class="px-3 max-sm:py-1">
-            <a href="#" class="flex items-center gap-1 hover:text-black">
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1">
               <img
                 src="./assets/imgs/wishlist.svg"
-                class="w-4 h-4 opacity-70"
                 alt=""
-              />
-              Wishlist (0)
+                class="inline"
+              />Wishlist(0)
             </a>
           </li>
-          <li class="px-3 max-sm:py-1">
-            <a href="#" class="flex items-center gap-1 hover:text-black">
-              Setting
-              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt="" />
-            </a>
-          </li>
-          <li class="px-3 max-sm:py-1">
-            <a href="#" class="flex items-center gap-1 hover:text-black"
-              >USD $
-              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt=""
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              >Setting<img
+                src="./assets/imgs/expand_more.svg"
+                class="inline"
+                alt=""
             /></a>
           </li>
-          <li class="pl-3 max-sm:px-3">
-            <a href="#" class="flex items-center gap-1 hover:text-black">
-              <img src="./assets/imgs/america.svg" class="w-4 h-3" alt="" />
-              English
-              <img src="./assets/imgs/expand_more.svg" class="w-3 h-3" alt="" />
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1"
+              >USD$
+              <img src="./assets/imgs/expand_more.svg" class="inline" alt=""
+            /></a>
+          </li>
+          <li class="px-4 text-xs">
+            <a href="#" class="flex gap-1">
+              <img
+                src="./assets/imgs/america.svg"
+                class="inline"
+                alt=""
+              />English
+              <img src="./assets/imgs/expand_more.svg" alt="" class="inline" />
             </a>
           </li>
         </ul>
       </div>
     </div>
-    <header class="w-full bg-white py-8 max-md:py-4">
-      <div
-        class="max-w-[1110px] mx-auto px-4 flex flex-row max-lg:flex-col items-center justify-between gap-6"
-      >
-        <a
-          href="#"
-          class="w-1/4 max-lg:w-full flex lg:justify-start justify-center"
-        >
-          <img src="./assets/imgs/logo.svg" alt="Logo" class="h-10" />
+
+    <header class="bg-white">
+      <div class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
+        <a href="index.html">
+          <img src="./assets/imgs/logo.svg" alt="logo" />
         </a>
-        <div class="w-1/2 max-lg:w-full">
-          <form
-            class="relative w-full border-2 border-[#3bb4ff] rounded-full h-12 overflow-hidden bg-white"
-          >
-            <input
-              type="text"
-              placeholder="Enter your search key ..."
-              class="w-full h-full pl-5 pr-[200px] max-sm:pr-[80px] outline-none text-sm"
-            />
 
-            <select
-              class="absolute top-0 right-[80px] h-full px-4 text-sm border-l border-gray-200 max-sm:hidden outline-none bg-white cursor-pointer"
-            >
-              <option>All categories</option>
-            </select>
-
-            <button
-              class="absolute top-0 right-0 h-full w-[80px] bg-[#3bb4ff] text-white hover:bg-[#2a9be6] transition flex justify-center items-center"
-            >
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
-        </div>
-        <div
-          class="w-1/4 max-lg:w-full flex items-center lg:justify-end justify-center gap-3"
+        <form
+          action=""
+          class="max-w-[450px] py-4 px-7 relative w-full h-full border-2 border-[#0090f0] rounded-full overflow-hidden bg-white"
         >
-          <img src="./assets/imgs/support.svg" alt="" class="h-10 w-10" />
-          <div class="text-sm">
-            <p class="font-bold">
-              Call us:
-              <a href="tel:+11238889999" class="text-[#3bb4ff] font-normal"
-                >+1(123)8889999</a
-              >
-            </p>
-            <p class="text-gray-400">demo@postthemes.com</p>
+          <input
+            type="text"
+            placeholder="Enter your search key..."
+            class="w-full h-full border-none outline-none pr-[200px] max-md:pr-0"
+          />
+          <select
+            name=""
+            id=""
+            class="absolute top-0 right-[76px] py-4 px-3 max-md:hidden"
+          >
+            <option>All categories</option>
+          </select>
+          <button class="bg-[#0090F0] absolute py-4 px-7 top-0 right-0">
+            <img src="./assets/imgs/search.svg" alt="" />
+          </button>
+        </form>
+
+        <div class="flex items-center max-md:hidden">
+          <img src="./assets/imgs/address.svg" alt="" />
+          <div>
+            <p>Call us: <a href="tel:+11238889999">+1(123)8889999</a></p>
+            <p>demo@postthemes.com</p>
           </div>
         </div>
       </div>
+      <div class="bg-[#0090F0]">
+        <nav class="max-w-[1120px] mx-auto">
+          <ul class="flex">
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="home.html" class="text-white font-semibold font-open"
+                >Home</a
+              >
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Electronics</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="product.html" class="text-white font-semibold font-open"
+                >Women's Clothing</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="" class="text-white font-semibold font-open">Computer</a>
+            </li>
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="" class="text-white font-semibold font-open"
+                >Jewelry&Watches</a
+              >
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Custom Menu</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="bg-[#0090F0]">
-      <nav class="max-w-[1120px] mx-auto">
-        <ul class="flex">
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open">Home</a>
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open"
-              >Electronics</a
-            >
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open"
-              >Women's Clothing</a
-            >
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open">Computer</a>
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open"
-              >Jewelry&Watches</a
-            >
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-          <li
-            class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
-          >
-            <a href="" class="text-white font-semibold font-open"
-              >Custom Menu</a
-            >
-            <img src="./assets/imgs/expand-with.svg" alt="" />
-          </li>
-        </ul>
-      </nav>
-      <div class="w-full bg-[#F5F5F5]">
-        <section
-          class="bg-[#F5F5F5] mx-auto max-w-[1120px] min-h-[500px] flex items-center justify-between px-20 py-10 relative"
-          aria-label="Featured Product"
+
+    <main>
+      <div class="bg-[#F5F5F5] relative mb-14">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center max-w-[1120px] mx-auto px-4 md:px-0"
         >
-          <div class="w-1/2 space-y-6">
-            <p class="text-gray-500 italic uppercase tracking-widest text-sm">
-              Oh snap!
-            </p>
-
-            <h1 class="text-5xl font-bold text-[#2C3539] leading-tight">
-              The Pentax K-50<br />Dslr Camera
+          <div class="py-[103px] px-3">
+            <p class="text-lg mb-3"><i>OH SNAP!</i></p>
+            <h1 class="text-[48px] font-open mb-10">
+              The Pentax K-50 <br />Dslr Camera
             </h1>
-
-            <p class="text-gray-600 text-lg">Free Shipping On Order $250</p>
-
+            <p class="text-xl font-open text-[#555555] mb-10">
+              Free Shipping On Order $250
+            </p>
             <a
-              href="/shop"
-              class="inline-block bg-[#0090F0] text-white font-semibold px-8 py-3 rounded-full hover:bg-blue-600 transition duration-300"
+              href="#"
+              class="inline-block px-8 py-4 bg-[#0090F0] text-white font-open text-sm mb-10 rounded-full"
             >
               SHOP NOW
             </a>
           </div>
-
-          <div class="w-1/2 flex justify-center">
+          <div class="max-w-[700px] w-full h-full">
             <img
               src="./assets/imgs/camera.png"
-              alt="Silver Pentax K-50 DSLR Camera"
-              class="max-w-[500px] w-full object-contain"
+              alt=""
+              class="w-full h-full object-contain"
             />
           </div>
-
           <div
-            class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3"
-            role="group"
-            aria-label="Slide controls"
+            class="absolute flex gap-2 items-center bottom-3 left-1/2 -translate-x-1/2"
           >
             <button
-              aria-label="Go to slide 1"
-              class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition"
+              class="w-2 h-2 rounded-full bg-[#e1d5d5] hover:bg-[#0483D7] hover:w-3 hover:h-3"
             ></button>
             <button
-              aria-label="Go to slide 2"
-              class="w-3 h-3 rounded-full bg-[#0090F0]"
-              aria-current="true"
+              class="w-2 h-2 rounded-full bg-[#e1d5d5] hover:bg-[#0483D7] hover:w-3 hover:h-3"
             ></button>
             <button
-              aria-label="Go to slide 3"
-              class="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition"
+              class="w-2 h-2 rounded-full bg-[#e1d5d5] hover:bg-[#0483D7] hover:w-3 hover:h-3"
             ></button>
-          </div>
-        </section>
-      </div>
-    </div>
-    <footer class="w-full bg-white font-open">
-      <div class="max-w-[1120px] mx-auto px-4">
-        <div
-          class="grid grid-cols-1 md:grid-cols-3 gap-8 py-10 border-b border-gray-200"
-        >
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/imgs/location.svg"
-              alt="Address icon"
-              class="w-10 h-10 object-contain"
-            />
-            <div>
-              <h3 class="font-semibold text-gray-800 text-base">
-                4710-4890 Breckinridge St, USK
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Contact Info!</p>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/imgs/email.svg"
-              alt="Email icon"
-              class="w-10 h-10 object-contain"
-            />
-            <div>
-              <h3 class="font-semibold text-gray-800 text-base">
-                Demo@Postthemes.Com
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Orders Support!</p>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-4">
-            <img
-              src="./assets/imgs/phone.svg"
-              alt="Phone icon"
-              class="w-10 h-10 object-contain"
-            />
-            <div>
-              <h3 class="font-semibold text-gray-800 text-base">
-                +1 (123) 888 9999, +1 (678) 777 8888
-              </h3>
-              <p class="text-sm text-gray-500 mt-1">Free support line!</p>
-            </div>
           </div>
         </div>
       </div>
 
-      <div class="max-w-[1120px] mx-auto px-4 py-12">
-        <nav
-          aria-label="Footer Navigation"
-          class="grid grid-cols-2 md:grid-cols-4 gap-8"
+      <div
+        class="mx-auto max-w-[1120px] border-2 rounded-md px-3 py-6 grid grid-cols-4 md:flex-nowrap justify-between gap-4 mb-14 max-md:grid-cols-2"
+      >
+        <div class="flex gap-1">
+          <img src="./assets/imgs/car.svg" alt="" />
+          <div>
+            <span class="font-open text-base font-semibold">Free Shipping</span>
+            <p class="text-xs text-[#666666]">On all orders over $75.00</p>
+          </div>
+        </div>
+        <div class="flex gap-1">
+          <img src="./assets/imgs/world.svg" alt="" />
+          <div>
+            <span class="font-open text-base font-semibold">Free Returns</span>
+            <p class="text-xs text-[#666666]">Returns are free within 9 days</p>
+          </div>
+        </div>
+        <div class="flex gap-1">
+          <img src="./assets/imgs/payment.svg" alt="" />
+          <div>
+            <span class="font-open text-base font-semibold"
+              >100% Payment Secure</span
+            >
+            <p class="text-xs text-[#666666]">Your payment are safe with us.</p>
+          </div>
+        </div>
+        <div class="flex gap-1">
+          <img src="./assets/imgs/support.svg" alt="" />
+          <div>
+            <span class="font-open text-base font-semibold">Support 24/7</span>
+            <p class="text-xs text-[#666666]">Contact us 24 hours a day</p>
+          </div>
+        </div>
+      </div>
+      <section
+        class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mx-auto max-w-[1120px] mb-14 px-4 md:px-0"
+      >
+        <a href="#" class="relative block group col-span-1">
+          <img
+            src="./assets/imgs/watch.png"
+            alt="Apple Watch"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div class="absolute top-9 left-9">
+            <p class="font-medium text-lg text-[#888888]">
+              The New <br />
+              <span
+                class="text-[#2C3E50] text-2xl font-bold mt-1 group-hover:text-[#0090f0] transition-colors"
+                >Apple Watch</span
+              >
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="relative block group col-span-2 order-last md:order-none"
         >
-          <div>
-            <h3
-              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
-            >
-              Information
+          <img
+            src="./assets/imgs/headphone.png"
+            alt="Earbuds"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div class="absolute top-[75px] left-12">
+            <p class="font-normal text-3xl text-[#888888] mb-6">
+              H2 Sport <br />
               <span
-                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
-              ></span>
-            </h3>
-            <ul class="space-y-4 text-sm text-[#666666]">
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Delivery</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Stores</a
-                >
-              </li>
-            </ul>
+                class="text-[#2C3E50] text-2xl font-bold mt-1 group-hover:text-[#0090f0] transition-colors"
+                >Earbuds</span
+              >
+            </p>
+            <span class="py-1 px-3 bg-[#0090F0] text-white text-sm rounded-full"
+              >New</span
+            >
+            <p class="font-normal text-base text-[#888888] mt-2">
+              NOISE-MASKING <br />
+              SLEEPBUDS
+            </p>
           </div>
+        </a>
 
-          <div>
-            <h3
-              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
-            >
-              Products
+        <a href="#" class="relative block group col-span-1">
+          <img
+            src="./assets/imgs/bill.png"
+            alt="Beats Pill"
+            class="w-full h-full object-cover rounded-lg"
+          />
+          <div class="absolute top-9 left-9">
+            <p class="font-medium text-lg text-[#888888]">
+              Beats Pill <br />
               <span
-                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
-              ></span>
-            </h3>
-            <ul class="space-y-4 text-sm text-[#666666]">
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Legal Notice</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Prices drop</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >New products</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Best sales</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Login</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >My account</a
-                >
-              </li>
-            </ul>
+                class="text-[#2C3E50] text-2xl font-bold mt-1 group-hover:text-[#0090f0] transition-colors"
+                >Mini Speaker</span
+              >
+            </p>
           </div>
+        </a>
+      </section>
 
-          <div>
-            <h3
-              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
-            >
-              My Account
-              <span
-                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
-              ></span>
-            </h3>
-            <ul class="space-y-4 text-sm text-[#666666]">
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Personal info</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Orders</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Credit slips</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Addresses</a
-                >
-              </li>
-            </ul>
+      <div class="mx-auto max-w-[1120px] px-4 md:px-0">
+        <div
+          class="flex justify-between items-center border-b-2 py-2 relative mb-9 flex-wrap gap-4 md:gap-0"
+        >
+          <div class="flex flex-col gap-2">
+            <h2 class="font-semibold text-2xl">New Arrivals</h2>
+            <p class="text-sm font-normal text-[#888888]">
+              Valid on select styles online and in-store supplies last
+            </p>
+            <span
+              class="bg-blue-500 absolute left-0 bottom-[-2px] w-24 h-[2px]"
+            ></span>
           </div>
+          <div class="flex gap-14">
+            <div class="flex gap-8 hidden md:flex">
+              <a
+                href="#"
+                class="hover:text-[#0090F0] text-sm font-normal text-[#888888]"
+                >Accessories & Parts</a
+              >
+              <a
+                href="#"
+                class="hover:text-[#0090F0] text-sm font-normal text-[#888888]"
+                >Portable Audio & Video</a
+              >
+              <a
+                href="#"
+                class="hover:text-[#0090F0] text-sm font-normal text-[#888888]"
+                >Video Games</a
+              >
+            </div>
+            <div class="flex gap-1">
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-left.svg" alt="" />
+              </button>
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
 
-          <div>
-            <h3
-              class="text-lg font-semibold text-[#2C3539] mb-6 relative pb-3 border-b-[2px] border-gray-100"
-            >
-              Useful Links
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-x-7 gap-y-8">
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block">
+              <img
+                src="./assets/imgs/water-and-wind-resistant-insulated-jacket.jpg.png"
+                alt=""
+              />
               <span
-                class="absolute left-0 -bottom-[2px] w-12 h-[2px] bg-[#0090F0]"
-              ></span>
-            </h3>
-            <ul class="space-y-4 text-sm text-[#666666]">
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Terms & Conditions</a
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#"
+                ><h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
                 >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Exchanges</a
+                  Water and Wind Resistant Insul…
+                </h3></a
+              >
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$11.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block">
+              <img
+                src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png"
+                alt=""
+              />
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#"
+                ><h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
                 >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Privacy Policy</a
+                  Trans-Weight Hooded Wind and…
+                </h3></a
+              >
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$11.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block">
+              <img src="./assets/imgs/originals.png" alt="" />
+              <span
+                class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >-20%</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#"
+                ><h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
                 >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Help</a
+                  Originals Kaval Windbreaker...
+                </h3></a
+              >
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-sm font-normal text-[#888888]">$23.90</span>
+                <del class="text-sm font-normal text-[#C81D1D]">$19.12</del>
+              </div>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block">
+              <img
+                src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png"
+                alt=""
+              />
+              <span
+                class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#"
+                ><h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
                 >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Customer Service</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-[#0090F0] transition-colors"
-                  >Support</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
+                  New Balance Fresh Foam LAZR …
+                </h3></a
+              >
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <div class="flex items-center">
+                <span class="text-sm font-normal text-[#888888]">$18.90</span>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
 
-      <div class="bg-[#F8F8F8] py-6 px-4">
-        <div
-          class="max-w-[1120px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"
-        >
-          <p class="text-sm text-[#888888]">
-            Copyright &copy; <strong class="text-[#555555]">Postthemes</strong>.
-            All Rights Reserved
-          </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-8 max-w-[1120px] mx-auto mt-14 px-4 md:px-0"
+      >
+        <a href="#" class="p-6 flex bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/accessories.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Accessories & <br />Parts
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">12 Products</p>
+            <span
+              class="flex gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
 
-          <ul class="flex items-center gap-2">
-            <li>
+        <a href="#" class="p-6 flex bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/Link → thumb-3.jpg.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Smart & <br />Electronics
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">13 Products</p>
+            <span
+              class="flex gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
+
+        <a href="#" class="p-6 flex gap-1 bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/Link → thumb-5.jpg.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Video
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">12 Products</p>
+            <span
+              class="flex items-center gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
+
+        <a href="#" class="p-6 flex bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/Link → thumb-2.jpg.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Computer
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">12 Products</p>
+            <span
+              class="flex gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
+
+        <a href="#" class="p-6 flex bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/Link → thumb-4.jpg.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Camera & Photo
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">13 Products</p>
+            <span
+              class="flex gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
+
+        <a href="#" class="p-6 flex gap-1 bg-[#F5F5F5] group">
+          <div><img src="./assets/imgs/Link → thumb-6.jpg.png" alt="" /></div>
+          <div class="py-7 flex flex-col gap-3">
+            <h3
+              class="text-lg font-semibold group-hover:text-[#0090f0] transition-colors"
+            >
+              Television
+            </h3>
+            <p class="text-sm font-normal text-[#666666]">13 Products</p>
+            <span
+              class="flex items-center gap-1 text-sm font-normal group-hover:text-[#0090f0] transition-colors"
+              >Shop Now <img src="./assets/imgs/shopnow.svg" alt=""
+            /></span>
+          </div>
+        </a>
+      </div>
+
+      <div class="mx-auto max-w-[1120px] mt-14 px-4 md:px-0">
+        <div
+          class="flex justify-between items-center border-b-2 py-2 relative mb-9"
+        >
+          <div class="flex flex-col gap-2">
+            <h2 class="font-semibold text-2xl">Featured products</h2>
+            <p class="text-sm font-normal">
+              Add featured products to weekly line up
+            </p>
+            <span
+              class="bg-blue-500 absolute left-0 bottom-[-2px] w-24 h-[2px]"
+            ></span>
+          </div>
+          <div class="flex gap-1">
+            <button
+              class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+            >
+              <img src="./assets/imgs/row-left.svg" alt="" class="" />
+            </button>
+            <button
+              class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+            >
+              <img src="./assets/imgs/row-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-7 gap-y-10"
+        >
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/madden-by-steve-madden-cale-6.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Madden by Steve Madde…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$11.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/Container.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  New Balance Arishi Spor…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$29.00</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/water-and-wind-resistant-insulated-jacket.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Water and Wind Resista…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$11.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Trans-Weight Hooded W…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal">$11.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/juicy-couture-juicy-quilted-terry-track-jacket.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >-20%</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Madden by Steve Madde…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star-gray.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-sm font-normal text-[#888888]">$11.90</span>
+                <del class="text-sm font-normal text-[#C81D1D]">$28.72</del>
+              </div>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/calvin-klein-jeans-reflective-logo-full-zip.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Calvin Klein Jeans Reflect…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal text-[#888888]">$29.00</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Calvin Klein Jeans Reflect…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal text-[#888888]">$29.00</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/originals.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >-20%</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Originals Kaval Windbre…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-sm font-normal text-[#888888]">$23.90</span>
+                <del class="text-sm font-normal text-[#C81D1D]">$19.12</del>
+              </div>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/new-balance-fresh-foam-kaymin.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  New Balance Fresh Foa…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal text-[#888888]">$18.90</span>
+            </div>
+          </article>
+
+          <article class="flex flex-col items-center group">
+            <a href="#" class="relative block w-full">
+              <figure
+                class="max-w-[200px] w-full h-auto mx-auto aspect-square overflow-hidden"
+              >
+                <img
+                  src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+              <span
+                class="absolute text-white bg-[#0090F0] px-3 py-1 text-xs rounded-full top-2 left-2"
+                >New</span
+              >
+            </a>
+            <div class="flex flex-col gap-2 items-center text-center">
+              <a href="#">
+                <h3
+                  class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2"
+                >
+                  Brixton Patrol All Terrain…
+                </h3>
+              </a>
+              <div class="flex">
+                <img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" /><img
+                  src="./assets/imgs/star.svg"
+                  alt=""
+                /><img src="./assets/imgs/star.svg" alt="" />
+              </div>
+              <span class="text-sm font-normal text-[#888888]">$29.00</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="mx-auto max-w-[1120px] mt-14 px-4 md:px-0">
+        <ul class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <li>
+            <a
+              href=""
+              class="max-w-[350px] min-h-[300px] block relative rounded-lg group mx-auto"
+            >
               <img
-                src="./assets/imgs/skrill.png"
-                alt="Pay with Skrill"
-                class="h-6 object-contain"
+                src="./assets/imgs/gamesir.png"
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover rounded-lg"
               />
+              <div
+                class="absolute z-10 flex flex-col justify-end items-center inset-0 p-6"
+              >
+                <h2
+                  class="text-2xl font-medium font-open group-hover:text-[#0090f0] transition-colors"
+                >
+                  GameSir G3w
+                </h2>
+                <p class="text-sm font-normal text-[#888888]">
+                  Wire Edition Gamepad
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="max-w-[350px] min-h-[300px] block relative rounded-lg group mx-auto"
+            >
+              <img
+                src="./assets/imgs/nix.png"
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover rounded-lg"
+              />
+              <div
+                class="absolute z-10 flex flex-col justify-end items-center inset-0 p-6"
+              >
+                <h2
+                  class="text-2xl font-medium font-open group-hover:text-[#0090f0] transition-colors"
+                >
+                  Nikon Coolpix P10
+                </h2>
+                <p class="text-sm font-normal text-[#888888]">
+                  HD Action Camera
+                </p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="max-w-[350px] min-h-[300px] block relative rounded-lg group mx-auto"
+            >
+              <img
+                src="./assets/imgs/jabra.png"
+                alt=""
+                class="absolute inset-0 h-full w-full object-cover rounded-lg"
+              />
+              <div
+                class="absolute z-10 flex flex-col justify-end items-center inset-0 p-6"
+              >
+                <h2
+                  class="text-2xl font-medium font-open group-hover:text-[#0090f0] transition-colors"
+                >
+                  Jabra Evolve 75e
+                </h2>
+                <p class="text-sm font-normal text-[#888888]">
+                  Wireless Earbuds
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="mx-auto max-w-[1120px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-14 gap-8 px-4 md:px-0"
+      >
+        <div class="px-2">
+          <div class="flex justify-between border-b-2 py-2 relative">
+            <h2 class="font-semibold text-xl">
+              Audio&Video
+              <span
+                class="bg-blue-500 absolute left-0 bottom-[-2px] w-24 h-[2px]"
+              ></span>
+            </h2>
+            <div class="flex gap-1">
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-left.svg" alt="" class="" />
+              </button>
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="grid grid-rows-3 gap-8 mt-9">
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/juicy.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Juicy Couture Tricot Logo …
+                  </h3></a
+                >
+                <p class="text-sm font-normal text-[#888888]">$9.00</p>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Trans-Weight Hooded Win…
+                  </h3></a
+                >
+                <p class="text-sm font-normal text-[#888888]">$11.90</p>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/juicy-couture-juicy-quilted-terry-track-jacket.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Juicy Couture Juicy Quilted…
+                  </h3></a
+                >
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="text-sm font-normal text-[#888888]">$11.90</p>
+                  <del class="text-sm font-normal text-[#C81D1D]">$28.72</del>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="px-2">
+          <div class="flex justify-between border-b-2 py-2 relative">
+            <h2 class="font-semibold text-xl">
+              Camera & Photo
+              <span
+                class="bg-blue-500 absolute left-0 bottom-[-2px] w-24 h-[2px]"
+              ></span>
+            </h2>
+            <div class="flex gap-1">
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-left.svg" alt="" class="" />
+              </button>
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="grid grid-rows-3 gap-8 mt-9">
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/juicy-couture-juicy-quilted-terry-track-jacket.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Juicy Couture Juicy Quilted…
+                  </h3></a
+                >
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="text-sm font-normal text-[#888888]">$35.90</p>
+                  <del class="text-sm font-normal text-[#C81D1D]">$28.72</del>
+                </div>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Brixton Patrol All Terrain A…
+                  </h3></a
+                >
+                <p class="text-sm font-normal text-[#888888]">$29.00</p>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Trans-Weight Hooded Win…
+                  </h3></a
+                >
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="text-sm font-normal text-[#888888]">$11.90</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="px-2 md:col-span-2 lg:col-span-1">
+          <div class="flex justify-between border-b-2 py-2 relative">
+            <h2 class="font-semibold text-xl">
+              Smart Electronics
+              <span
+                class="bg-blue-500 absolute left-0 bottom-[-2px] w-24 h-[2px]"
+              ></span>
+            </h2>
+            <div class="flex gap-1">
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-left.svg" alt="" class="" />
+              </button>
+              <button
+                class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+              >
+                <img src="./assets/imgs/row-right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div
+            class="grid grid-rows-3 md:grid-cols-2 lg:grid-cols-1 md:grid-rows-none lg:grid-rows-3 gap-8 mt-9"
+          >
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/originals.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Originals Kaval Windbreak…
+                  </h3></a
+                >
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="text-sm font-normal text-[#888888]">$23.90</p>
+                  <del class="text-sm font-normal text-[#C81D1D]">$19.12</del>
+                </div>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Brixton Patrol All Terrain A…
+                  </h3></a
+                >
+                <p class="text-sm font-normal text-[#888888]">$29.00</p>
+              </div>
+            </article>
+            <article class="flex group">
+              <a href="#" class="max-w-[100px] h-auto block shrink-0">
+                <img
+                  src="./assets/imgs/calvin-klein-jeans-reflective-logo-full-zip.jpg.png"
+                  alt=""
+                  class="h-full w-full"
+                />
+              </a>
+              <div class="py-3 pl-3">
+                <a href="#"
+                  ><h3
+                    class="mb-3 text-base font-normal group-hover:text-[#0090f0] transition-colors"
+                  >
+                    Calvin Klein Jeans Reflectiv…
+                  </h3></a
+                >
+                <div class="flex items-center gap-2 mt-1">
+                  <p class="text-sm font-normal text-[#888888]">$29.00</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="mx-auto max-w-[1120px] mb-14 px-4 md:px-0">
+        <div class="flex justify-between border-b-2 py-4 mb-10">
+          <div>
+            <h2 class="text-2xl font-bold">From Our Blog</h2>
+            <p class="font-normal text-sm text-[#888888] mt-1">
+              The latest news, videos, and discussion topics
+            </p>
+          </div>
+          <div class="flex gap-1 items-end pb-1">
+            <button
+              class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+            >
+              <img src="./assets/imgs/row-left.svg" alt="" class="" />
+            </button>
+            <button
+              class="w-8 h-8 border-2 rounded-full bg-white flex justify-center items-center hover:text-[#0090f0]"
+            >
+              <img src="./assets/imgs/row-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <article class="mx-auto max-w-[1120px] flex flex-col group">
+            <a href="#" class="block">
+              <img
+                src="./assets/imgs/blog-1.png"
+                alt=""
+                class="w-full h-auto"
+              />
+            </a>
+            <div>
+              <div class="text-xs italic my-6">
+                <span
+                  >Posted by
+                  <a href="#" class="text-[#0090f0]"> Demo Posthemes</a></span
+                >
+                <span class="mx-1">/</span>
+                <time datetime="2019-06-30">Jun 30TH, 2019</time>
+                <span class="mx-1">/</span>
+                <a href="#" class="text-[#0090f0]">Fashion</a>
+              </div>
+              <a href="#"
+                ><h3
+                  class="text-lg font-bold mb-5 group-hover:text-[#0090f0] transition-colors"
+                >
+                  This is Secound Post For XipBlog
+                </h3></a
+              >
+              <p class="text-[#666666] text-sm font-normal mb-6 font-open">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when ...
+              </p>
+              <a href="#" class="text-[#0090f0] hover:underline">Read More</a>
+            </div>
+          </article>
+          <article class="mx-auto max-w-[1120px] flex flex-col group">
+            <a href="#" class="block">
+              <img
+                src="./assets/imgs/Link → home_default-blog3.jpg.png"
+                alt=""
+                class="w-full h-auto"
+              />
+            </a>
+            <div>
+              <div class="text-xs italic my-6">
+                <span
+                  >Posted by
+                  <a href="#" class="text-[#0090f0]"> Demo Posthemes</a></span
+                >
+                <span class="mx-1">/</span>
+                <time datetime="2019-06-30">Jun 30TH, 2019</time>
+                <span class="mx-1">/</span>
+                <a href="#" class="text-[#0090f0]">Fashion</a>
+              </div>
+              <a href="#"
+                ><h3
+                  class="text-lg font-bold mb-5 group-hover:text-[#0090f0] transition-colors"
+                >
+                  This is Secound Post For XipBlog
+                </h3></a
+              >
+              <p class="text-[#666666] text-sm font-normal mb-6 font-open">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when ...
+              </p>
+              <a href="#" class="text-[#0090f0] hover:underline">Read More</a>
+            </div>
+          </article>
+          <article class="mx-auto max-w-[1120px] flex flex-col group">
+            <a href="#" class="block">
+              <img
+                src="./assets/imgs/Link → home_default-blog4.jpg.png"
+                alt=""
+                class="w-full h-auto"
+              />
+            </a>
+            <div>
+              <div class="text-xs italic my-6">
+                <span
+                  >Posted by
+                  <a href="#" class="text-[#0090f0]"> Demo Posthemes</a></span
+                >
+                <span class="mx-1">/</span>
+                <time datetime="2019-06-30">Jun 30TH, 2019</time>
+                <span class="mx-1">/</span>
+                <a href="#" class="text-[#0090f0]">Fashion</a>
+              </div>
+              <a href="#"
+                ><h3
+                  class="text-lg font-bold mb-5 group-hover:text-[#0090f0] transition-colors"
+                >
+                  This is Secound Post For XipBlog
+                </h3></a
+              >
+              <p class="text-[#666666] text-sm font-normal mb-6 font-open">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s, when ...
+              </p>
+              <a href="#" class="text-[#0090f0] hover:underline">Read More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div
+        class="p-5 mx-auto max-w-[1120px] border-2 rounded-md mt-15 mb-14 hidden md:block"
+      >
+        <ul class="flex justify-between gap-7 px-4">
+          <li>
+            <a href=""><img src="./assets/imgs/graphic.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/imgs/codecanon.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/imgs/audio.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/imgs/active.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./assets/imgs/theme.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="mt-14">
+      <div class="bg-[#0483D7] mb-10">
+        <div
+          class="max-w-[1120px] mx-auto py-8 px-4 md:px-0 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-0"
+        >
+          <div>
+            <span class="text-2xl font-semibold text-white"
+              >Sign Up For Newsletters</span
+            >
+            <p class="text-sm font-normal text-white opacity-[0.7] mt-1">
+              Be the First to Know. Sign up for newsletter today !
+            </p>
+          </div>
+          <form
+            action=""
+            class="relative rounded-full overflow-hidden w-full lg:w-auto"
+          >
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="py-3 px-5 border-none outline-none pr-[120px] md:pr-[200px] w-full"
+            />
+            <button
+              class="py-3 px-5 text-white text-sm bg-black top-0 right-0 absolute h-full"
+            >
+              Sign Up
+            </button>
+          </form>
+          <ul class="flex gap-5">
+            <li>
+              <a href=""><img src="./assets/imgs/face.svg" alt="" /></a>
             </li>
             <li>
-              <img
-                src="./assets/imgs/bitcoin.png"
-                alt="Pay with Bitcoin"
-                class="h-6 object-contain"
-              />
+              <a href=""><img src="./assets/imgs/twist.svg" alt="" /></a>
             </li>
             <li>
-              <img
-                src="./assets/imgs/amex.png"
-                alt="Pay with Amex"
-                class="h-6 object-contain"
-              />
+              <a href=""><img src="./assets/imgs/youtube.svg" alt="" /></a>
             </li>
             <li>
-              <img
-                src="./assets/imgs/paypal.png"
-                alt="Pay with PayPal"
-                class="h-6 object-contain"
-              />
+              <a href=""><img src="./assets/imgs/gogle.svg" alt="" /></a>
             </li>
             <li>
-              <img
-                src="./assets/imgs/mastercard.png"
-                alt="Pay with Mastercard"
-                class="h-6 object-contain"
-              />
-            </li>
-            <li>
-              <img
-                src="./assets/imgs/visa.png"
-                alt="Pay with Visa"
-                class="h-6 object-contain"
-              />
+              <a href=""><img src="./assets/imgs/insta.svg" alt="" /></a>
             </li>
           </ul>
+        </div>
+      </div>
+
+      <address
+        class="not-italic flex flex-col md:flex-row justify-between max-w-[1120px] mx-auto mb-16 px-4 md:px-0 gap-8 md:gap-0"
+      >
+        <div class="flex gap-4">
+          <img src="./assets/imgs/local.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block"
+              >4710-4890 Breckinridge St, USK</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Contact Info!</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/email.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >demo@posthemes.com</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Orders Support!</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/phone.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >+1 (123) 888 9999, +1 (678) 777 8888</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Free support line!</p>
+          </div>
+        </div>
+      </address>
+
+      <nav
+        class="grid grid-cols-2 md:grid-cols-4 max-w-[1120px] mx-auto gap-y-8 px-4 md:px-0"
+      >
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Information
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Custom Links
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            My Account
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Company
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="bg-[#F7F7F7] mt-10">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-[1120px] bg-[#F7F7F7] py-5 px-4 md:px-0 gap-4 md:gap-0"
+        >
+          <p class="text-sm">
+            Copyright <span class="font-semibold">Posthemes</span>. All Right
+            Reserved
+          </p>
+          <img src="./assets/imgs/payment.png.svg" alt="" />
         </div>
       </div>
     </footer>
-    <div class="text-[13px] text-gray-500 italic">
-      Posted by <a href="#">Demo Postthemes</a>
-      <span class="mx-1">/</span>
-      <time datetime="2019-06-30">Jun 30TH, 2019</time>
-      <span class="mx-1">/</span>
-      <a href="#">Fashion</a>
-    </div>
-    <a
-      href="#"
-      class="relative block w-full h-64 rounded-lg overflow-hidden group"
-    >
-      <img
-        src="./assets/imgs/camera.png"
-        alt="GameSir G3w"
-        class="absolute inset-5 w-full h-full object-cover transition duration-500 group-hover:scale-110"
-      />
-
-      <div
-        class="absolute inset-10 bg-gradient-to-t from-black/80 to-transparent"
-      ></div>
-
-      <div
-        class="relative z-10 flex flex-col h-full justify-end text-white p-6"
-      >
-        <h3 class="text-2xl font-bold">GameSir G3w</h3>
-        <p class="text-sm font-light mt-1">Wired Edition Gamepad</p>
-      </div>
-    </a>
-    <nav aria-label="Breadcrumb" class="w-full py-4 bg-white">
-      <div class="max-w-[1200px] mx-auto px-4">
-        <ol
-          class="flex items-center text-sm text-gray-600 font-sans m-0 p-0 list-none"
-        >
-          <li class="flex items-center">
-            <a href="/" class="hover:text-blue-600 transition-colors"
-              >Accueil</a
-            >
-
-            <span class="mx-2 text-gray-400" aria-hidden="true">/</span>
-          </li>
-
-          <li class="flex items-center">
-            <a href="/clothing" class="hover:text-blue-600 transition-colors"
-              >Clothing</a
-            >
-            <span class="mx-2 text-gray-400" aria-hidden="true">/</span>
-          </li>
-
-          <li>
-            <span class="text-[#3eb1ff] font-medium" aria-current="page"
-              >Women's Clothing</span
-            >
-          </li>
-        </ol>
-      </div>
-    </nav>
-    <aside class="w-[250px] font-sans text-[13px] text-gray-600">
-      <div class="mb-6 relative">
-        <h2 class="text-[16px] font-bold text-gray-800 pb-2">Filtrer Par</h2>
-        <div class="absolute bottom-0 left-0 w-full h-[1px] bg-gray-200"></div>
-        <div class="absolute bottom-0 left-0 w-10 h-[2px] bg-[#3eb1ff]"></div>
-      </div>
-
-      <form action="#" method="GET">
-        <button
-          type="reset"
-          class="flex items-center gap-2 bg-[#2d3e4d] text-white px-4 py-2 font-semibold hover:bg-gray-800 transition-colors mb-8"
-        >
-          <span class="text-gray-400 text-lg leading-none">&times;</span>
-          Effacer Tout
-        </button>
-
-        <fieldset class="mb-6">
-          <legend class="font-bold text-gray-800 mb-3 text-[14px]">
-            Catégories
-          </legend>
-          <ul class="space-y-2">
-            <li class="flex items-center gap-3">
-              <input
-                type="checkbox"
-                id="cat1"
-                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
-              />
-              <label for="cat1" class="cursor-pointer hover:text-[#3eb1ff]"
-                >Hot Categories (13)</label
-              >
-            </li>
-            <li class="flex items-center gap-3">
-              <input
-                type="checkbox"
-                id="cat2"
-                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
-              />
-              <label for="cat2" class="cursor-pointer hover:text-[#3eb1ff]"
-                >Outerwear & Jackets (13)</label
-              >
-            </li>
-            <li class="flex items-center gap-3">
-              <input
-                type="checkbox"
-                id="cat3"
-                class="w-3.5 h-3.5 border-gray-300 rounded-sm text-[#3eb1ff] focus:ring-0 cursor-pointer"
-              />
-              <label for="cat3" class="cursor-pointer hover:text-[#3eb1ff]"
-                >Weddings & Events (13)</label
-              >
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset class="mb-6">
-          <legend class="font-bold text-gray-800 mb-3 text-[14px]">Prix</legend>
-          <ul class="space-y-2">
-            <li class="flex items-center gap-3">
-              <input
-                type="radio"
-                id="price1"
-                name="price"
-                value="8-10"
-                class="w-3.5 h-3.5 border-gray-300 text-[#3eb1ff] focus:ring-0 cursor-pointer"
-              />
-              <label for="price1" class="cursor-pointer hover:text-[#3eb1ff]"
-                >8,00 $US - 10,00 $US (2)</label
-              >
-            </li>
-            <li class="flex items-center gap-3">
-              <input
-                type="radio"
-                id="price2"
-                name="price"
-                value="11-12"
-                class="w-3.5 h-3.5 border-gray-300 text-[#3eb1ff] focus:ring-0 cursor-pointer"
-              />
-              <label for="price2" class="cursor-pointer hover:text-[#3eb1ff]"
-                >11,00 $US - 12,00 $US (3)</label
-              >
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset class="mb-6">
-          <legend class="font-bold text-gray-800 mb-3 text-[14px]">
-            Couleur
-          </legend>
-          <ul class="space-y-2">
-            <li class="flex items-center gap-3">
-              <input type="checkbox" id="color-gris" class="peer sr-only" />
-              <label
-                for="color-gris"
-                class="w-3.5 h-3.5 bg-gray-400 cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300"
-              ></label>
-              <label
-                for="color-gris"
-                class="cursor-pointer hover:text-[#3eb1ff]"
-                >Gris (1)</label
-              >
-            </li>
-
-            <li class="flex items-center gap-3">
-              <input type="checkbox" id="color-blanc" class="peer sr-only" />
-              <label
-                for="color-blanc"
-                class="w-3.5 h-3.5 bg-white cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-300 border border-gray-300"
-              ></label>
-              <label
-                for="color-blanc"
-                class="cursor-pointer hover:text-[#3eb1ff]"
-                >Blanc (4)</label
-              >
-            </li>
-
-            <li class="flex items-center gap-3">
-              <input type="checkbox" id="color-camel" class="peer sr-only" />
-              <label
-                for="color-camel"
-                class="w-3.5 h-3.5 bg-[#bfa175] cursor-pointer peer-checked:ring-2 ring-offset-1 ring-[#bfa175] border border-gray-300"
-              ></label>
-              <label
-                for="color-camel"
-                class="cursor-pointer hover:text-[#3eb1ff]"
-                >Camel (1)</label
-              >
-            </li>
-          </ul>
-        </fieldset>
-
-        <fieldset class="mb-8">
-          <legend
-            class="font-bold text-gray-800 mb-3 text-[14px] border-b border-gray-100 pb-2 w-full"
-          >
-            Tags
-          </legend>
-          <div class="flex flex-wrap gap-2 mt-4">
-            <a
-              href="#"
-              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
-              >Computer</a
-            >
-            <a
-              href="#"
-              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
-              >Sale</a
-            >
-            <a
-              href="#"
-              class="px-3 py-1 border border-gray-200 rounded-full text-[12px] text-gray-500 hover:border-[#3eb1ff] hover:text-[#3eb1ff] transition-colors"
-              >Electronics</a
-            >
-          </div>
-        </fieldset>
-      </form>
-
-      <a href="#" class="block w-full overflow-hidden bg-gray-100 rounded">
-        <div
-          class="w-full h-[300px] flex items-center justify-center text-gray-400 border border-gray-200"
-        >
-          Banner Image (H2 Sport)
-        </div>
-      </a>
-    </aside>
-    <label class="flex items-center gap-3 cursor-pointer group">
-      <input type="checkbox" class="peer sr-only" />
-
-      <div
-        class="w-6 h-6 border-2 border-gray-300 rounded-md peer-checked:bg-blue-500 peer-checked:border-blue-500 flex items-center justify-center transition-colors"
-      >
-        <svg
-          class="w-4 h-4 text-white opacity-0 peer-checked:opacity-100"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="3"
-            d="M5 13l4 4L19 7"
-          />
-        </svg>
-      </div>
-
-      <span class="text-gray-700">Đồng ý với điều khoản</span>
-    </label>
-
-    <div
-      class="flex items-center justify-between bg-[#f5f5f5] px-4 py-3 rounded-md w-full max-w-5xl font-sans"
-    >
-      <div class="flex items-center gap-x-8">
-        <div class="flex items-center gap-x-3">
-          <button
-            class="text-[#0090F0] hover:opacity-80 transition-opacity focus:outline-none"
-            aria-label="Grid view"
-          >
-            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-              <rect x="3" y="3" width="4" height="4" rx="1" />
-              <rect x="10" y="3" width="4" height="4" rx="1" />
-              <rect x="17" y="3" width="4" height="4" rx="1" />
-              <rect x="3" y="10" width="4" height="4" rx="1" />
-              <rect x="10" y="10" width="4" height="4" rx="1" />
-              <rect x="17" y="10" width="4" height="4" rx="1" />
-              <rect x="3" y="17" width="4" height="4" rx="1" />
-              <rect x="10" y="17" width="4" height="4" rx="1" />
-              <rect x="17" y="17" width="4" height="4" rx="1" />
-            </svg>
-          </button>
-
-          <button
-            class="text-gray-300 hover:text-gray-400 transition-colors focus:outline-none"
-            aria-label="List view"
-          >
-            <svg
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.5"
-              stroke-linecap="round"
-            >
-              <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
-
-        <span class="text-[#888888] text-sm tracking-wide"
-          >Il Y A 13 Produits.</span
-        >
-      </div>
-
-      <div class="flex items-center gap-x-3">
-        <span class="text-[#888888] text-sm">Trier Par :</span>
-
-        <div class="relative">
-          <select
-            class="appearance-none bg-white border border-gray-200 text-[#4a4a4a] text-sm rounded-full pl-5 pr-10 py-1.5 focus:outline-none focus:ring-1 focus:ring-[#0090F0] cursor-pointer min-w-[180px]"
-          >
-            <option value="pertinence">Pertinence</option>
-            <option value="prix-croissant">Prix Croissant</option>
-            <option value="prix-decroissant">Prix Décroissant</option>
-          </select>
-
-          <div
-            class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4 text-gray-500"
-          >
-            <svg
-              class="w-4 h-4 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
-    <section class="flex flex-col md:flex-row gap-10 items-start">
-      <div
-        class="w-full md:w-[45%] md:sticky md:top-8 z-10 flex flex-col gap-4"
-      >
-        <figure class="relative bg-white flex justify-center items-center">
-          <span
-            class="absolute top-0 left-0 bg-[#0088FF] text-white text-[11px] px-3 py-1 rounded-full z-10 font-medium tracking-wide"
-          >
-            • New
-          </span>
-          <img
-            src="https://via.placeholder.com/500x500.png?text=Smartwatch+Main"
-            alt="Smartwatch trắng"
-            class="w-full h-auto object-contain"
-          />
-        </figure>
-
-        <div class="grid grid-cols-4 gap-4 px-2">
-          <button
-            class="border border-[#0088FF] rounded p-2 focus:outline-none"
-          >
-            <img
-              src="https://via.placeholder.com/100x100.png?text=1"
-              alt="Góc 1"
-              class="w-full h-auto"
-            />
-          </button>
-          <button
-            class="border border-transparent rounded p-2 hover:border-gray-300 focus:outline-none"
-          >
-            <img
-              src="https://via.placeholder.com/100x100.png?text=2"
-              alt="Góc 2"
-              class="w-full h-auto"
-            />
-          </button>
-          <button
-            class="border border-transparent rounded p-2 hover:border-gray-300 focus:outline-none"
-          >
-            <img
-              src="https://via.placeholder.com/100x100.png?text=3"
-              alt="Góc 3"
-              class="w-full h-auto"
-            />
-          </button>
-          <button
-            class="border border-transparent rounded p-2 hover:border-gray-300 focus:outline-none"
-          >
-            <img
-              src="https://via.placeholder.com/100x100.png?text=4"
-              alt="Góc 4"
-              class="w-full h-auto"
-            />
-          </button>
-        </div>
-      </div>
-
-      <div class="w-full md:w-[55%] border border-gray-200 p-8 rounded-sm">
-        <h1 class="text-[28px] text-gray-800 mb-2 font-normal">
-          New Balance Fresh Foam Kaymin
-        </h1>
-        <p class="text-sm text-gray-500 mb-4">Reference: demo_15</p>
-
-        <div class="flex items-center gap-3 mb-6 text-sm text-gray-600">
-          <div class="text-[#FFC107] text-lg tracking-widest">★★★★★</div>
-          <a
-            href="#reviews"
-            class="hover:text-[#0088FF] flex items-center gap-1"
-          >
-            <svg
-              class="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
-              ></path>
-            </svg>
-            Read reviews (1)
-          </a>
-          <a
-            href="#write-review"
-            class="hover:text-[#0088FF] flex items-center gap-1 ml-2"
-          >
-            <svg
-              class="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-              ></path>
-            </svg>
-            Write a review
-          </a>
-        </div>
-
-        <div class="mb-6 border-b border-gray-200 pb-6">
-          <span class="text-[26px] text-gray-500">$18.90</span>
-        </div>
-
-        <div
-          class="text-[14px] text-gray-600 leading-relaxed space-y-1 mb-8 border-b border-gray-200 pb-8"
-        >
-          <p>
-            Increase your distance with the superior cushioning of the Fresh
-            Foam Kaymin running shoe from New Balance®.
-          </p>
-          <p>Predecessor: None.</p>
-          <p>Support Type: Neutral.</p>
-          <p>Cushioning: High energizing cushioning.</p>
-        </div>
-
-        <form action="/add-to-cart" method="POST">
-          <div class="mb-6">
-            <span class="block text-sm text-gray-600 mb-3">Color</span>
-            <div class="flex gap-2">
-              <label class="cursor-pointer">
-                <input
-                  type="radio"
-                  name="color"
-                  value="white"
-                  class="sr-only peer"
-                  checked
-                />
-                <div
-                  class="w-6 h-6 bg-white border border-gray-300 peer-checked:border-gray-800 outline outline-2 outline-offset-2 outline-transparent peer-checked:outline-gray-400"
-                ></div>
-              </label>
-              <label class="cursor-pointer">
-                <input
-                  type="radio"
-                  name="color"
-                  value="navy"
-                  class="sr-only peer"
-                />
-                <div
-                  class="w-6 h-6 bg-[#3C4A5A] border border-gray-300 peer-checked:border-gray-800 outline outline-2 outline-offset-2 outline-transparent peer-checked:outline-gray-400"
-                ></div>
-              </label>
-            </div>
-          </div>
-
-          <div
-            class="flex flex-wrap items-center gap-4 mb-8 border-b border-gray-200 pb-8"
-          >
-            <div
-              class="flex border border-gray-300 rounded-sm overflow-hidden h-10 w-20 bg-white"
-            >
-              <input
-                type="number"
-                name="quantity"
-                value="1"
-                min="1"
-                class="w-full text-center focus:outline-none text-gray-700"
-              />
-              <div class="flex flex-col border-l border-gray-300 w-6">
-                <button
-                  type="button"
-                  class="h-1/2 flex items-center justify-center border-b border-gray-300 bg-gray-50 hover:bg-gray-100 text-[10px] text-gray-600"
-                >
-                  ▲
-                </button>
-                <button
-                  type="button"
-                  class="h-1/2 flex items-center justify-center bg-gray-50 hover:bg-gray-100 text-[10px] text-gray-600"
-                >
-                  ▼
-                </button>
-              </div>
-            </div>
-
-            <button
-              type="submit"
-              class="bg-[#0088FF] hover:bg-[#0077E6] text-white px-8 py-2 h-10 rounded-sm flex items-center gap-2 transition-colors text-sm font-medium"
-            >
-              <span class="text-lg font-light">+</span> ADD TO CART
-            </button>
-          </div>
-        </form>
-
-        <div class="flex items-center gap-6 text-sm text-gray-500 mb-8">
-          <button
-            class="hover:text-gray-800 flex items-center gap-2 transition-colors"
-          >
-            <svg
-              class="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-              ></path>
-            </svg>
-            Add to wishlist
-          </button>
-          <button
-            class="hover:text-gray-800 flex items-center gap-2 transition-colors"
-          >
-            <svg
-              class="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              ></path>
-            </svg>
-            Add to compare
-          </button>
-        </div>
-
-        <div class="pt-6 border-t border-gray-200">
-          <div class="flex items-center gap-4 mb-6">
-            <span class="font-bold text-gray-800 text-[13px]">Share</span>
-            <div class="flex items-center gap-3">
-              <a
-                href="#"
-                class="text-gray-400 hover:text-blue-600 transition-colors"
-                ><svg
-                  class="w-[18px] h-[18px] fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
-                  /></svg
-              ></a>
-              <a
-                href="#"
-                class="text-gray-400 hover:text-blue-400 transition-colors"
-                ><svg
-                  class="w-[18px] h-[18px] fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                  /></svg
-              ></a>
-              <a
-                href="#"
-                class="text-gray-400 hover:text-red-500 transition-colors"
-                ><svg
-                  class="w-[18px] h-[18px] fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"
-                  /></svg
-              ></a>
-              <a
-                href="#"
-                class="text-gray-400 hover:text-red-600 transition-colors"
-                ><svg
-                  class="w-[18px] h-[18px] fill-current"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.366 18.605 0 12.017 0z"
-                  /></svg
-              ></a>
-            </div>
-          </div>
-
-          <div class="flex flex-wrap items-center justify-between gap-4 mt-8">
-            <div class="flex items-center gap-3">
-              <svg
-                class="w-8 h-8 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.2"
-                  d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
-                ></path>
-              </svg>
-              <div class="text-[12px] leading-tight text-gray-500">
-                <p>Free Shipping</p>
-                <p>Ships Today</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <svg
-                class="w-8 h-8 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.2"
-                  d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"
-                ></path>
-              </svg>
-              <div class="text-[12px] leading-tight text-gray-500">
-                <p>Easy Returns</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3">
-              <svg
-                class="w-8 h-8 text-gray-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1.2"
-                  d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
-                ></path>
-              </svg>
-              <div class="text-[12px] leading-tight text-gray-500">
-                <p>Lowest Price</p>
-                <p>Guarantee</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="w-full lg:w-2/3">
-      <h1
-        class="text-2xl font-bold text-gray-800 mb-2 border-b border-gray-200 pb-4"
-      >
-        Shopping Cart
-      </h1>
-
-      <ul class="flex flex-col">
-        <li class="border-b border-gray-200 py-6">
-          <article
-            class="flex flex-wrap md:flex-nowrap items-center gap-4 md:gap-6"
-          >
-            <figure
-              class="w-20 h-20 shrink-0 bg-gray-50 rounded-md flex items-center justify-center p-2"
-            >
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Brixton Patrol All Terrain"
-                class="w-full h-full object-contain"
-              />
-            </figure>
-
-            <div class="flex-1 min-w-[200px]">
-              <h3 class="text-[15px] font-medium text-gray-800 mb-1">
-                Brixton Patrol All Terrain<br />Anorak Jacket
-              </h3>
-              <p class="text-[13px] text-gray-500 mb-1">$29.00</p>
-              <dl class="text-[13px] text-gray-500">
-                <div class="flex gap-1">
-                  <dt>Dimension:</dt>
-                  <dd>40x60cm</dd>
-                </div>
-              </dl>
-            </div>
-
-            <div class="w-20 shrink-0">
-              <div
-                class="flex border border-gray-300 rounded-sm overflow-hidden h-9 w-[70px]"
-              >
-                <input
-                  type="number"
-                  value="1"
-                  min="1"
-                  aria-label="Quantity"
-                  class="w-full text-center px-1 focus:outline-none text-sm text-gray-700 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
-                />
-                <div class="flex flex-col border-l border-gray-300 w-6">
-                  <button
-                    type="button"
-                    class="h-1/2 flex items-center justify-center border-b border-gray-300 bg-white hover:bg-gray-100 text-[9px] text-gray-600"
-                  >
-                    ▲
-                  </button>
-                  <button
-                    type="button"
-                    class="h-1/2 flex items-center justify-center bg-white hover:bg-gray-100 text-[9px] text-gray-600"
-                  >
-                    ▼
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="w-16 shrink-0 text-right">
-              <strong class="text-[14px] text-gray-500 font-normal"
-                >$29.00</strong
-              >
-            </div>
-
-            <button
-              aria-label="Remove item"
-              class="ml-4 text-gray-800 hover:text-red-500 transition-colors"
-            >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path
-                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
-                />
-              </svg>
-            </button>
-          </article>
-        </li>
-
-        <li class="border-b border-gray-200 py-6">
-          <article
-            class="flex flex-wrap md:flex-nowrap items-center gap-4 md:gap-6"
-          >
-            <figure
-              class="w-20 h-20 shrink-0 bg-gray-50 rounded-md flex items-center justify-center p-2"
-            >
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Water and Wind Resistant"
-                class="w-full h-full object-contain"
-              />
-            </figure>
-            <div class="flex-1 min-w-[200px]">
-              <h3 class="text-[15px] font-medium text-gray-800 mb-1">
-                Water and Wind Resistant<br />Insulated Jacket
-              </h3>
-              <p class="text-[13px] text-gray-500 mb-1">$11.90</p>
-            </div>
-            <div class="w-20 shrink-0">
-              <div
-                class="flex border border-gray-300 rounded-sm overflow-hidden h-9 w-[70px]"
-              >
-                <input
-                  type="number"
-                  value="1"
-                  min="1"
-                  class="w-full text-center px-1 focus:outline-none text-sm text-gray-700 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
-                />
-                <div class="flex flex-col border-l border-gray-300 w-6">
-                  <button
-                    class="h-1/2 flex items-center justify-center border-b border-gray-300 bg-white text-[9px] text-gray-600"
-                  >
-                    ▲
-                  </button>
-                  <button
-                    class="h-1/2 flex items-center justify-center bg-white text-[9px] text-gray-600"
-                  >
-                    ▼
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-16 shrink-0 text-right">
-              <strong class="text-[14px] text-gray-500 font-normal"
-                >$11.90</strong
-              >
-            </div>
-            <button
-              class="ml-4 text-gray-800 hover:text-red-500 transition-colors"
-            >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path
-                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
-                />
-              </svg>
-            </button>
-          </article>
-        </li>
-
-        <li class="border-b border-gray-200 py-6">
-          <article
-            class="flex flex-wrap md:flex-nowrap items-center gap-4 md:gap-6"
-          >
-            <figure
-              class="w-20 h-20 shrink-0 bg-gray-50 rounded-md flex items-center justify-center p-2"
-            >
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Originals Kaval"
-                class="w-full h-full object-contain"
-              />
-            </figure>
-            <div class="flex-1 min-w-[200px]">
-              <h3 class="text-[15px] font-medium text-gray-800 mb-1">
-                Originals Kaval Windbreaker<br />Winter Jacket
-              </h3>
-              <div class="flex items-center gap-2 mb-1">
-                <span class="text-[13px] text-gray-500">$19.12</span>
-                <del class="text-[13px] text-[#FF3B30]">$23.90</del>
-                <span
-                  class="bg-[#253237] text-white text-[10px] px-2 py-0.5 rounded-sm"
-                  >-20%</span
-                >
-              </div>
-              <dl class="text-[13px] text-gray-500 space-y-0.5">
-                <div class="flex gap-1">
-                  <dt>Size:</dt>
-                  <dd>S</dd>
-                </div>
-                <div class="flex gap-1">
-                  <dt>Color:</dt>
-                  <dd>White</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="w-20 shrink-0">
-              <div
-                class="flex border border-gray-300 rounded-sm overflow-hidden h-9 w-[70px]"
-              >
-                <input
-                  type="number"
-                  value="1"
-                  class="w-full text-center px-1 focus:outline-none text-sm text-gray-700 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
-                />
-                <div class="flex flex-col border-l border-gray-300 w-6">
-                  <button
-                    class="h-1/2 flex items-center justify-center border-b border-gray-300 bg-white text-[9px] text-gray-600"
-                  >
-                    ▲
-                  </button>
-                  <button
-                    class="h-1/2 flex items-center justify-center bg-white text-[9px] text-gray-600"
-                  >
-                    ▼
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-16 shrink-0 text-right">
-              <strong class="text-[14px] text-gray-500 font-normal"
-                >$19.12</strong
-              >
-            </div>
-            <button
-              class="ml-4 text-gray-800 hover:text-red-500 transition-colors"
-            >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path
-                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
-                />
-              </svg>
-            </button>
-          </article>
-        </li>
-      </ul>
-
-      <div class="mt-8">
-        <a
-          href="#"
-          class="inline-block bg-[#253237] hover:bg-gray-800 transition-colors text-white text-sm font-medium px-6 py-2.5 rounded-sm"
-        >
-          Continue Shopping
-        </a>
-      </div>
-    </section>
-
-    <aside class="w-full lg:w-1/3 pt-12 lg:pt-14">
-      <div class="border border-gray-200 bg-[#FAFAFA] p-6 rounded-sm">
-        <dl
-          class="space-y-3 border-b border-gray-200 pb-5 mb-5 text-[14px] text-gray-800"
-        >
-          <div class="flex justify-between font-medium">
-            <dt>4 Items</dt>
-            <dd>$78.92</dd>
-          </div>
-          <div class="flex justify-between font-medium">
-            <dt>Shipping</dt>
-            <dd>$7.00</dd>
-          </div>
-        </dl>
-
-        <dl class="space-y-2 mb-6">
-          <div class="flex justify-between font-bold text-[15px] text-gray-800">
-            <dt>Total (Tax Excl.)</dt>
-            <dd>$85.92</dd>
-          </div>
-          <div
-            class="flex justify-between text-[13px] text-gray-800 font-medium"
-          >
-            <dt>Taxes</dt>
-            <dd>$0.00</dd>
-          </div>
-        </dl>
-
-        <a
-          href="#"
-          class="block w-full text-center bg-[#253237] hover:bg-gray-800 transition-colors text-white text-sm font-medium py-3 rounded-sm"
-        >
-          Proceed To Checkout
-        </a>
-      </div>
-
-      <ul class="flex flex-wrap items-center justify-between gap-4 mt-6">
-        <li class="flex items-center gap-2">
-          <svg
-            class="w-6 h-6 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.2"
-              d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
-            ></path>
-          </svg>
-          <div class="text-[11px] leading-tight text-gray-400">
-            <p>Free Shipping</p>
-            <p>Ships Today</p>
-          </div>
-        </li>
-        <li class="flex items-center gap-2">
-          <svg
-            class="w-6 h-6 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.2"
-              d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"
-            ></path>
-          </svg>
-          <div class="text-[11px] leading-tight text-gray-400">
-            <p>Easy</p>
-            <p>Returns</p>
-          </div>
-        </li>
-        <li class="flex items-center gap-2">
-          <svg
-            class="w-6 h-6 text-gray-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.2"
-              d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
-            ></path>
-          </svg>
-          <div class="text-[11px] leading-tight text-gray-400">
-            <p>Lowest Price</p>
-            <p>Guarantee</p>
-          </div>
-        </li>
-      </ul>
-    </aside>
-    <section class="max-w-5xl mx-auto py-12 px-4 font-open">
-      <div
-        class="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-[0_2px_10px_rgba(0,0,0,0.02)]"
-      >
-        <div class="text-center mb-10">
-          <h1 class="text-[28px] font-bold text-gray-800 mb-2">Register</h1>
-          <p class="text-[14px] text-gray-400">
-            Best place to buy and sell digital products
-          </p>
-        </div>
-
-        <form action="#" method="POST">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >First Name*</label
-              >
-              <input
-                type="text"
-                placeholder="Enter your first name"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Last Name*</label
-              >
-              <input
-                type="text"
-                placeholder="Enter your Last name"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Email*</label
-              >
-              <input
-                type="email"
-                placeholder="Enter your Email"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Phone Number*</label
-              >
-              <input
-                type="tel"
-                placeholder="Enter your phone number"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div class="md:col-span-2">
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Address*</label
-              >
-              <input
-                type="text"
-                placeholder="Address Line 1"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >City*</label
-              >
-              <input
-                type="text"
-                placeholder="city 1"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Post Code*</label
-              >
-              <input
-                type="text"
-                placeholder="Post Code"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Country*</label
-              >
-              <input
-                type="text"
-                placeholder="Country 1"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-
-            <div>
-              <label class="block text-[13px] font-bold text-gray-700 mb-2"
-                >Region State*</label
-              >
-              <input
-                type="text"
-                placeholder="Region/State 1"
-                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:border-[#0090F0] focus:ring-1 focus:ring-[#0090F0] text-sm text-gray-700 placeholder-gray-400 transition-colors"
-              />
-            </div>
-          </div>
-
-          <div class="mt-10 flex justify-center">
-            <button
-              type="submit"
-              class="bg-[#6B7DF6] hover:bg-[#5668DB] text-white font-medium py-2.5 px-12 rounded-lg transition-colors text-[15px]"
-            >
-              Register
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
   </body>
 </html>
