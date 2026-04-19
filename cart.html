@@ -17,8 +17,8 @@
     />
   </head>
   <body>
-     <!-- thanh trên cùng màu xám -->
-     <section class="bg-[#F7F7F7] w-full">
+    <!-- thanh trên cùng màu xám -->
+    <div class="bg-[#F7F7F7] w-full">
       <div class="max-w-[1110px] mx-auto py-4 flex justify-between">
         <span class="text-xs">Welcome you to Drama store! </span>
         <ul class="flex items-center divide-x-2 divide-[#BFBFBF]">
@@ -66,24 +66,28 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- thanh trên cùng màu xám -->
-    <!-- thanh chứa logo -->
-     <header class="bg-white">
-      <!-- thanh chứa logo -->
-      <section class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
-        <img src="./assets/imgs/logo.svg" alt="logo" />
+    </div>
+
+    <header class="bg-white">
+      <div class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
+        <a href="index.html">
+          <img src="./assets/imgs/logo.svg" alt="logo" />
+        </a>
 
         <form
           action=""
-          class="max-w-[450px] py-4 px-7 relative w-full h-full border-2 border-gray-200 rounded-full overflow-hidden bg-white"
+          class="max-w-[450px] py-4 px-7 relative w-full h-full border-2 border-[#0090f0] rounded-full overflow-hidden bg-white"
         >
           <input
             type="text"
             placeholder="Enter your search key..."
-            class="w-full h-full border-none outline-none pr-[200px]"
+            class="w-full h-full border-none outline-none pr-[200px] max-md:pr-0"
           />
-          <select name="" id="" class="absolute top-0 right-[76px] py-4 px-3">
+          <select
+            name=""
+            id=""
+            class="absolute top-0 right-[76px] py-4 px-3 max-md:hidden"
+          >
             <option>All categories</option>
           </select>
           <button class="bg-[#0090F0] absolute py-4 px-7 top-0 right-0">
@@ -91,24 +95,21 @@
           </button>
         </form>
 
-        <div class="flex items-center">
+        <div class="flex items-center max-md:hidden">
           <img src="./assets/imgs/address.svg" alt="" />
           <div>
-            <p>Call us: <a href="">+1(123)8889999</a></p>
-
+            <p>Call us: <a href="tel:+11238889999">+1(123)8889999</a></p>
             <p>demo@postthemes.com</p>
           </div>
         </div>
-      </section>
-      <!-- thanh nav -->
-      <section class="bg-[#0090F0]">
+      </div>
+      <div class="bg-[#0090F0]">
         <nav class="max-w-[1120px] mx-auto">
           <ul class="flex">
-            <li
-              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
-            >
-              <a href="" class="text-white font-semibold font-open">Home</a>
-              
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="home.html" class="text-white font-semibold font-open"
+                >Home</a
+              >
             </li>
             <li
               class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
@@ -121,24 +122,18 @@
             <li
               class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
             >
-              <a href="" class="text-white font-semibold font-open"
+              <a href="product.html" class="text-white font-semibold font-open"
                 >Women's Clothing</a
               >
               <img src="./assets/imgs/expand-with.svg" alt="" />
             </li>
-            <li
-              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
-            >
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
               <a href="" class="text-white font-semibold font-open">Computer</a>
-              
             </li>
-            <li
-              class=" p-5 cursor-pointer hover:bg-[#0483D7]"
-            >
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
               <a href="" class="text-white font-semibold font-open"
                 >Jewelry&Watches</a
               >
-              
             </li>
             <li
               class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
@@ -150,465 +145,599 @@
             </li>
           </ul>
         </nav>
-      </section> 
-      <!-- thanh chứa logo -->
+      </div>
+    </header>
+    <!-- thanh chứa logo -->
 
-      <!-- thanh bên phải chứa  sản phẩm -->
-       <section class="mx-auto max-w-[1120px] mt-14 grid grid-cols-3 gap-3">
-        <section class="col-span-2 ">
-            <h1 class="font-semibold text-xl font-open border-b-2 border-gray-300  py-3">Shopping Cart</h1>
-            <ul class="mb-4">
-                <li class="py-3 border-b-2 border-gray-300">
-                    <article class="flex justify-between items-start">
-                    <figure class="max-w-[125px] h-auto">
-                        <img src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png" alt="" class="w-full h-full object-cover">
-                    </figure>
+    <!-- thanh bên phải chứa  sản phẩm -->
+    <section class="mx-auto max-w-[1120px] mt-14 grid grid-cols-3 gap-3">
+      <section class="col-span-2">
+        <h1
+          class="font-semibold text-xl font-open border-b-2 border-gray-300 py-3"
+        >
+          Shopping Cart
+        </h1>
+        <ul class="mb-4">
+          <li class="py-3 border-b-2 border-gray-300">
+            <article class="flex justify-between items-start">
+              <figure class="max-w-[125px] h-auto">
+                <img
+                  src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
 
-                    <div class="">
-                        <h2 class="font-normal text-base text-[#253237] font-open mb-4">Brixton Patrol All Terrain <br>Anorak Jacket</h2>
-                        <p class="font-open text-sm text-[#888888] mb-1">$29.00</p>
-                        <dl class="flex gap-1">
-                            <dt class="">Dimension:</dt>
-                            <dd class="">40x60cm</dd>
-                        </dl>
-                    </div>
+              <div class="">
+                <h2 class="font-normal text-base text-[#253237] font-open mb-4">
+                  Brixton Patrol All Terrain <br />Anorak Jacket
+                </h2>
+                <p class="font-open text-sm text-[#888888] mb-1">$29.00</p>
+                <dl class="flex gap-1">
+                  <dt class="">Dimension:</dt>
+                  <dd class="">40x60cm</dd>
+                </dl>
+              </div>
 
-                    <div class="flex items-start border border-gray-300 ">
-                        
-                        <input type="number" min="1" value="1" class="max-w-[55px] py-3 px-2 border-r border-gray-300" >
-                        <div class="flex flex-col">
-                            <button class="h-1/2 flex  items-center border-b border-gray-300">▲</button> 
-                            <button class="h-1/2 flex items-center  border-gray-300">▼</button>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <strong class="text-sm text-gray-500 font-normal">$29.00</strong>
-                    </div>
-
-                    <button class="">
-                        <img src="./assets/imgs/delete.svg" alt="">
-                    </button>
-
-                    </article>
-                </li>
-                <li class="py-3 border-b-2 border-gray-300">
-                    <article class="flex justify-between items-start">
-                    <figure class="max-w-[125px] h-auto">
-                        <img src="./assets/imgs/water-and-wind-resistant-insulated-jacket.jpg.png" alt="" class="w-full h-full object-cover">
-                    </figure>
-
-                    <div class="">
-                        <h2 class="font-normal text-base text-[#253237] font-open mb-4">Water and Wind Resistant <br>Insulated Jacket</h2>
-                        <p class="font-open text-sm text-[#888888] mb-1">$11.90</p>
-                        <dl class="flex gap-1">
-                            <dt class=""></dt>
-                            <dd class=""> </dd>
-                        </dl>
-                    </div>
-
-                    <div class="flex items-start border border-gray-300 ">
-                        
-                        <input type="number" min="1" value="1" class="max-w-[55px] py-3 px-2 border-r border-gray-300" >
-                        <div class="flex flex-col">
-                            <button class="h-1/2 flex  items-center border-b border-gray-300">▲</button> 
-                            <button class="h-1/2 flex items-center  border-gray-300">▼</button>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <strong class="text-sm text-gray-500 font-normal">$11.90</strong>
-                    </div>
-
-                    <button class="">
-                        <img src="./assets/imgs/delete.svg" alt="">
-                    </button>
-
-                    </article>
-                </li>
-                <li class="py-3 border-b-2 border-gray-300">
-                    <article class="flex justify-between items-start">
-                    <figure class="max-w-[125px] h-auto">
-                        <img src="./assets/imgs/originals.png" alt="" class="w-full h-full object-cover">
-                    </figure>
-
-                    <div class="">
-                        <h2 class="font-normal text-base text-[#253237] font-open mb-4">Originals Kaval Windbreaker <br>Winter Jacket</h2>
-                      <div class="flex items-center gap-2" >
-                        <p class="font-open text-sm text-[#888888] mb-1">$19.12</p>
-                        <del class="font-open text-sm text-[#C81D1D]">$23.90</del>
-                        <span class="py-1 px-3 bg-black rounded-lg text-white">-20%</span>
-                      </div>
-                      <div>
-                        <dl class="flex gap-1">
-                            <dt class="">Size:</dt>
-                            <dd class=""> S</dd>
-                        </dl>
-                        <dl class="flex gap-1">
-                            <dt class="">Color</dt>
-                            <dd class=""> White</dd>
-                        </dl>
-                      </div>
-                    </div>
-
-                    <div class="flex items-start border border-gray-300 ">
-                        
-                        <input type="number" min="1" value="1" class="max-w-[55px] py-3 px-2 border-r border-gray-300" >
-                        <div class="flex flex-col">
-                            <button class="h-1/2 flex  items-center border-b border-gray-300">▲</button> 
-                            <button class="h-1/2 flex items-center  border-gray-300">▼</button>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <strong class="text-sm text-gray-500 font-normal">$19.12</strong>
-                    </div>
-
-                    <button class="">
-                        <img src="./assets/imgs/delete.svg" alt="">
-                    </button>
-
-                    </article>
-                </li>
-                <li class="py-3 border-b-2 border-gray-300">
-                    <article class="flex justify-between items-start">
-                    <figure class="max-w-[125px] h-auto">
-                        <img src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png" alt="" class="w-full h-full object-cover">
-                    </figure>
-
-                    <div class="">
-                        <h2 class="font-normal text-base text-[#253237] font-open mb-4">New Balance Fresh Foam <br>LAZR v1 Sport</h2>
-                        <p class="font-open text-sm text-[#888888] mb-1">$18.90</p>
-                        <dl class="flex gap-1">
-                            <dt class="">Color:</dt>
-                            <dd class="">White</dd>
-                        </dl>
-                    </div>
-
-                    <div class="flex items-start border border-gray-300 ">
-                        
-                        <input type="number" min="1" value="1" class="max-w-[55px] py-3 px-2 border-r border-gray-300" >
-                        <div class="flex flex-col">
-                            <button class="h-1/2 flex  items-center border-b border-gray-300">▲</button> 
-                            <button class="h-1/2 flex items-center  border-gray-300">▼</button>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <strong class="text-sm text-gray-500 font-normal">$18.90</strong>
-                    </div>
-
-                    <button class="">
-                        <img src="./assets/imgs/delete.svg" alt="">
-                    </button>
-
-                    </article>
-                </li>  
-            </ul>
-            <button class="py-2 px-5 bg-black rounded-lg text-white">Continue Shopping</button>
-        </section>
-        <aside class="col-span-1 mt-2">
-        <div class="border-2 ">
-        <div class="border-b-2">
-            <dl class="py-3 px-3">
-                <div class="mb-1 flex justify-between">
-                    <dt class="font-bold text-base font-open">4 items</dt>
-                    <dd class="font-bold text-base font-open">$78.92</dd>
+              <div class="flex items-start border border-gray-300">
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="max-w-[55px] py-3 px-2 border-r border-gray-300"
+                />
+                <div class="flex flex-col">
+                  <button
+                    class="h-1/2 flex items-center border-b border-gray-300"
+                  >
+                    ▲
+                  </button>
+                  <button class="h-1/2 flex items-center border-gray-300">
+                    ▼
+                  </button>
                 </div>
-                <div class="mb-1 flex justify-between">
-                    <dt class="font-bold text-base font-open">Shipping</dt>
-                    <dd class="font-bold text-base font-open">$7.00</dd>
-                </div>  
-            </dl> 
-        </div> 
-        <div class="border-b-2">
-            <dl class="py-3 px-3">
-                <div class="mb-1 flex justify-between">
-                    <dt class="font-bold text-base font-open">Total (tax excl.)</dt>
-                    <dd class="font-bold text-base font-open">$85.92</dd>
+              </div>
+
+              <div class="">
+                <strong class="text-sm text-gray-500 font-normal"
+                  >$29.00</strong
+                >
+              </div>
+
+              <button class="">
+                <img src="./assets/imgs/delete.svg" alt="" />
+              </button>
+            </article>
+          </li>
+          <li class="py-3 border-b-2 border-gray-300">
+            <article class="flex justify-between items-start">
+              <figure class="max-w-[125px] h-auto">
+                <img
+                  src="./assets/imgs/water-and-wind-resistant-insulated-jacket.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+
+              <div class="">
+                <h2 class="font-normal text-base text-[#253237] font-open mb-4">
+                  Water and Wind Resistant <br />Insulated Jacket
+                </h2>
+                <p class="font-open text-sm text-[#888888] mb-1">$11.90</p>
+                <dl class="flex gap-1">
+                  <dt class=""></dt>
+                  <dd class=""></dd>
+                </dl>
+              </div>
+
+              <div class="flex items-start border border-gray-300">
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="max-w-[55px] py-3 px-2 border-r border-gray-300"
+                />
+                <div class="flex flex-col">
+                  <button
+                    class="h-1/2 flex items-center border-b border-gray-300"
+                  >
+                    ▲
+                  </button>
+                  <button class="h-1/2 flex items-center border-gray-300">
+                    ▼
+                  </button>
                 </div>
-                <div class="mb-1 flex justify-between">
-                    <dt class="font-bold text-base font-open">Taxes</dt>
-                    <dd class="font-bold text-base font-open">$0.00</dd>
-                </div>  
+              </div>
+
+              <div class="">
+                <strong class="text-sm text-gray-500 font-normal"
+                  >$11.90</strong
+                >
+              </div>
+
+              <button class="">
+                <img src="./assets/imgs/delete.svg" alt="" />
+              </button>
+            </article>
+          </li>
+          <li class="py-3 border-b-2 border-gray-300">
+            <article class="flex justify-between items-start">
+              <figure class="max-w-[125px] h-auto">
+                <img
+                  src="./assets/imgs/originals.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+
+              <div class="">
+                <h2 class="font-normal text-base text-[#253237] font-open mb-4">
+                  Originals Kaval Windbreaker <br />Winter Jacket
+                </h2>
+                <div class="flex items-center gap-2">
+                  <p class="font-open text-sm text-[#888888] mb-1">$19.12</p>
+                  <del class="font-open text-sm text-[#C81D1D]">$23.90</del>
+                  <span class="py-1 px-3 bg-black rounded-lg text-white"
+                    >-20%</span
+                  >
+                </div>
+                <div>
+                  <dl class="flex gap-1">
+                    <dt class="">Size:</dt>
+                    <dd class="">S</dd>
+                  </dl>
+                  <dl class="flex gap-1">
+                    <dt class="">Color</dt>
+                    <dd class="">White</dd>
+                  </dl>
+                </div>
+              </div>
+
+              <div class="flex items-start border border-gray-300">
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="max-w-[55px] py-3 px-2 border-r border-gray-300"
+                />
+                <div class="flex flex-col">
+                  <button
+                    class="h-1/2 flex items-center border-b border-gray-300"
+                  >
+                    ▲
+                  </button>
+                  <button class="h-1/2 flex items-center border-gray-300">
+                    ▼
+                  </button>
+                </div>
+              </div>
+
+              <div class="">
+                <strong class="text-sm text-gray-500 font-normal"
+                  >$19.12</strong
+                >
+              </div>
+
+              <button class="">
+                <img src="./assets/imgs/delete.svg" alt="" />
+              </button>
+            </article>
+          </li>
+          <li class="py-3 border-b-2 border-gray-300">
+            <article class="flex justify-between items-start">
+              <figure class="max-w-[125px] h-auto">
+                <img
+                  src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+
+              <div class="">
+                <h2 class="font-normal text-base text-[#253237] font-open mb-4">
+                  New Balance Fresh Foam <br />LAZR v1 Sport
+                </h2>
+                <p class="font-open text-sm text-[#888888] mb-1">$18.90</p>
+                <dl class="flex gap-1">
+                  <dt class="">Color:</dt>
+                  <dd class="">White</dd>
+                </dl>
+              </div>
+
+              <div class="flex items-start border border-gray-300">
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="max-w-[55px] py-3 px-2 border-r border-gray-300"
+                />
+                <div class="flex flex-col">
+                  <button
+                    class="h-1/2 flex items-center border-b border-gray-300"
+                  >
+                    ▲
+                  </button>
+                  <button class="h-1/2 flex items-center border-gray-300">
+                    ▼
+                  </button>
+                </div>
+              </div>
+
+              <div class="">
+                <strong class="text-sm text-gray-500 font-normal"
+                  >$18.90</strong
+                >
+              </div>
+
+              <button class="">
+                <img src="./assets/imgs/delete.svg" alt="" />
+              </button>
+            </article>
+          </li>
+        </ul>
+        <button class="py-2 px-5 bg-black rounded-lg text-white">
+          Continue Shopping
+        </button>
+      </section>
+      <aside class="col-span-1 mt-2">
+        <div class="border-2">
+          <div class="border-b-2">
+            <dl class="py-3 px-3">
+              <div class="mb-1 flex justify-between">
+                <dt class="font-bold text-base font-open">4 items</dt>
+                <dd class="font-bold text-base font-open">$78.92</dd>
+              </div>
+              <div class="mb-1 flex justify-between">
+                <dt class="font-bold text-base font-open">Shipping</dt>
+                <dd class="font-bold text-base font-open">$7.00</dd>
+              </div>
             </dl>
-        </div>
-         
-        <div class="p-3 flex justify-center">
-        <button class="py-3 rounded-md  text-white text-sm font-normal bg-black px-5">Proceed to checkout</button>
-        </div>
+          </div>
+          <div class="border-b-2">
+            <dl class="py-3 px-3">
+              <div class="mb-1 flex justify-between">
+                <dt class="font-bold text-base font-open">Total (tax excl.)</dt>
+                <dd class="font-bold text-base font-open">$85.92</dd>
+              </div>
+              <div class="mb-1 flex justify-between">
+                <dt class="font-bold text-base font-open">Taxes</dt>
+                <dd class="font-bold text-base font-open">$0.00</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="p-3 flex justify-center">
+            <button
+              class="py-3 rounded-md text-white text-sm font-normal bg-black px-5"
+            >
+              Proceed to checkout
+            </button>
+          </div>
         </div>
         <ul class="flex justify-between items-start mt-2">
-            <li class="flex items-start">
-                <img src="./assets/imgs/freeship.svg" alt="">
-                <p class="font-normal text-sm text-[#888888]">Free <br>Shipping <br>Ships <br>Today</p>
-            </li>
-            <li class="flex items-start">
-                <img src="./assets/imgs/back.svg" alt="">
-                <p class="font-normal text-sm text-[#888888]">Easy <br>Returns</p>
-            </li>
-            <li class="flex items-start">
-                <img src="./assets/imgs/lowest-price.svg" alt="">
-                <p class="font-normal text-sm text-[#888888]">Lowest <br>Price <br>Guarantee</p>
-            </li>
+          <li class="flex items-start">
+            <img src="./assets/imgs/freeship.svg" alt="" />
+            <p class="font-normal text-sm text-[#888888]">
+              Free <br />Shipping <br />Ships <br />Today
+            </p>
+          </li>
+          <li class="flex items-start">
+            <img src="./assets/imgs/back.svg" alt="" />
+            <p class="font-normal text-sm text-[#888888]">Easy <br />Returns</p>
+          </li>
+          <li class="flex items-start">
+            <img src="./assets/imgs/lowest-price.svg" alt="" />
+            <p class="font-normal text-sm text-[#888888]">
+              Lowest <br />Price <br />Guarantee
+            </p>
+          </li>
         </ul>
-        </aside>  
-       </section>
-      <footer class="mt-14">
-        <div class="bg-[#0483D7] mb-10">
-          <section
-            class="max-w-[1120px] mx-auto py-8 flex items-center justify-between"
+      </aside>
+    </section>
+    <footer class="mt-14">
+      <div class="bg-[#0483D7] mb-10">
+        <div
+          class="max-w-[1120px] mx-auto py-8 px-4 md:px-0 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-0"
+        >
+          <div>
+            <span class="text-2xl font-semibold text-white"
+              >Sign Up For Newsletters</span
+            >
+            <p class="text-sm font-normal text-white opacity-[0.7] mt-1">
+              Be the First to Know. Sign up for newsletter today !
+            </p>
+          </div>
+          <form
+            action=""
+            class="relative rounded-full overflow-hidden w-full lg:w-auto"
           >
-            <div class="">
-              <span class="text-2xl font-semibold text-white"
-                >Sign Up For Newsletters</span
-              >
-              <p class="text-sm font-normal text-white opacity-[0.7]">
-                Be the First to Know. Sign up for newsletter today !
-              </p>
-            </div>
-            <form action="" class="relative rounded-full overflow-hidden">
-              <!-- <div class=""> -->
-              <input
-                type="text"
-                placeholder="Your email address"
-                class="py-3 px-5 border-none outline-none pr-[200px]"
-              />
-              <button
-                class="py-3 px-5 text-white text-sm bg-black top-0 right-0 absolute"
-              >
-                Sign Up
-              </button>
-              <!-- </div> -->
-            </form>
-            <ul class="flex gap-5">
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/face.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/twist.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/youtube.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/gogle.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/insta.svg" alt="" />
-                </a>
-              </li>
-            </ul>
-          </section>
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="py-3 px-5 border-none outline-none pr-[120px] md:pr-[200px] w-full"
+            />
+            <button
+              class="py-3 px-5 text-white text-sm bg-black top-0 right-0 absolute h-full"
+            >
+              Sign Up
+            </button>
+          </form>
+          <ul class="flex gap-5">
+            <li>
+              <a href=""><img src="./assets/imgs/face.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/twist.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/youtube.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/gogle.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/insta.svg" alt="" /></a>
+            </li>
+          </ul>
         </div>
-        <section></section>
+      </div>
 
-        <section class="flex justify-between max-w-[1120px] mx-auto mb-16">
-          <div class="flex gap-4">
-            <img src="./assets/imgs/local.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base"
-                >4710-4890 Breckinridge St, USK</span
-              >
-              <p class="text-[#888888] text-xs">Contact Info!</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <img src="./assets/imgs/email.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base">demo@posthemes.com</span>
-              <p class="text-[#888888] text-xs">Orders Support!</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <img src="./assets/imgs/phone.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base"
-                >+1 (123) 888 9999, +1 (678) 777 8888</span
-              >
-              <p class="text-[#888888] text-xs">Free support line!</p>
-            </div>
-          </div>
-        </section>
-        <nav class="grid grid-cols-4 max-w-[1120px] mx-auto">
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="bg-[#F7F7F7]">
-          <div
-            class="flex justify-between mx-auto max-w-[1120px] bg-[#F7F7F7] py-5"
-          >
-            <p>Copyright <span>Posthemes</span>. All Right Reserved</p>
-            <img src="./assets/imgs/payment.png.svg" alt="" />
+      <address
+        class="not-italic flex flex-col md:flex-row justify-between max-w-[1120px] mx-auto mb-16 px-4 md:px-0 gap-8 md:gap-0"
+      >
+        <div class="flex gap-4">
+          <img src="./assets/imgs/local.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block"
+              >4710-4890 Breckinridge St, USK</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Contact Info!</p>
           </div>
         </div>
-      </footer>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/email.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >demo@posthemes.com</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Orders Support!</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/phone.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >+1 (123) 888 9999, +1 (678) 777 8888</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Free support line!</p>
+          </div>
+        </div>
+      </address>
+
+      <nav
+        class="grid grid-cols-2 md:grid-cols-4 max-w-[1120px] mx-auto gap-y-8 px-4 md:px-0"
+      >
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Information
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Custom Links
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            My Account
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Company
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="bg-[#F7F7F7] mt-10">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-[1120px] bg-[#F7F7F7] py-5 px-4 md:px-0 gap-4 md:gap-0"
+        >
+          <p class="text-sm">
+            Copyright <span class="font-semibold">Posthemes</span>. All Right
+            Reserved
+          </p>
+          <img src="./assets/imgs/payment.png.svg" alt="" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -17,7 +17,7 @@
     />
   </head>
   <body class="font-open bg-white">
-    <section class="bg-[#F7F7F7] w-full">
+    <div class="bg-[#F7F7F7] w-full">
       <div class="max-w-[1110px] mx-auto py-4 flex justify-between">
         <span class="text-xs">Welcome you to Drama store! </span>
         <ul class="flex items-center divide-x-2 divide-[#BFBFBF]">
@@ -65,360 +65,239 @@
           </li>
         </ul>
       </div>
-    </section>
-    <!-- thanh chứa logo -->
-    <section
-      class="max-w-[1120px] flex items-center justify-between py-8 px-4 mx-auto"
-    >
-      <img src="./assets/imgs/logo.svg" alt="logo" />
+    </div>
 
-      <ul class="flex py-5">
-        <li>
-          <a
-            href="#"
-            class="font-bold text-sm font-open p-5 hover:text-[#0090F0]"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="font-bold text-sm font-open p-5 hover:text-[#0090F0]"
-            >Delivery</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="font-bold text-sm font-open p-5 hover:text-[#0090F0]"
-            >Legal Notice</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="font-bold text-sm font-open p-5 hover:text-[#0090F0]"
-            >Contact us</a
-          >
-        </li>
-      </ul>
+    <header class="bg-white">
+      <div class="max-w-[1120px] flex justify-between py-8 px-4 mx-auto">
+        <a href="index.html">
+          <img src="./assets/imgs/logo.svg" alt="logo" />
+        </a>
 
-      <div class="flex items-center">
-        <img src="./assets/imgs/address.svg" alt="" />
-        <div>
-          <p>Call us: <a href="">+1(123)8889999</a></p>
-
-          <p>demo@postthemes.com</p>
-        </div>
-      </div>
-    </section>
-    <!-- thanh nav -->
-    <section class="bg-[#0090F0]">
-      <nav class="max-w-[1120px] mx-auto flex justify-between py-1 gap-12">
-        <button class="flex items-center gap-14 py-4 px-8">
-          <span class="text-sm font-bold text-white flex items-center gap-1"
-            ><img src="./assets/imgs/allcatego.svg" alt="" />All
-            Categories</span
-          >
-          <img src="./assets/imgs/expans-white.svg" alt="" class="text-white" />
-        </button>
         <form
           action=""
-          class="max-w-[588px] py-4 px-7 relative w-full border-2 border-blue-600 h-full rounded-full overflow-hidden bg-white my-1"
+          class="max-w-[450px] py-4 px-7 relative w-full h-full border-2 border-[#0090f0] rounded-full overflow-hidden bg-white"
         >
           <input
             type="text"
             placeholder="Enter your search key..."
-            class="w-full h-full border-none outline-none pr-[200px]"
+            class="w-full h-full border-none outline-none pr-[200px] max-md:pr-0"
           />
-          <select name="" id="" class="absolute top-0 right-[76px] py-4 px-3">
-            <option class="font-normal text-sm font-open text-[#88888]">
-              All categories
-            </option>
-          </select>
-          <button
-            class="bg-[#000000] absolute py-4 px-7 top-0 right-0 border-none outline-none"
+          <select
+            name=""
+            id=""
+            class="absolute top-0 right-[76px] py-4 px-3 max-md:hidden"
           >
+            <option>All categories</option>
+          </select>
+          <button class="bg-[#0090F0] absolute py-4 px-7 top-0 right-0">
             <img src="./assets/imgs/search.svg" alt="" />
           </button>
         </form>
-        <div class="flex items-center gap-2">
-          <div class="relative inline-block">
-            <img src="./assets/imgs/bag.svg" alt="" class="" />
-            <div
-              class="absolute -bottom-3 -right-2 w-5 h-5 rounded-full bg-white text-black text-xs font-bold flex items-center justify-center"
-            >
-              <span>(0)</span>
-            </div>
+
+        <div class="flex items-center max-md:hidden">
+          <img src="./assets/imgs/address.svg" alt="" />
+          <div>
+            <p>Call us: <a href="tel:+11238889999">+1(123)8889999</a></p>
+            <p>demo@postthemes.com</p>
           </div>
-          <span class="text-white text-xs font-bold">0,00$US</span>
         </div>
-      </nav>
-    </section>
+      </div>
+      <div class="bg-[#0090F0]">
+        <nav class="max-w-[1120px] mx-auto">
+          <ul class="flex">
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="home.html" class="text-white font-semibold font-open"
+                >Home</a
+              >
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Electronics</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer bg-[#0483D7]"
+            >
+              <a href="product.html" class="text-white font-semibold font-open"
+                >Women's Clothing</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="" class="text-white font-semibold font-open">Computer</a>
+            </li>
+            <li class="p-5 cursor-pointer hover:bg-[#0483D7]">
+              <a href="" class="text-white font-semibold font-open"
+                >Jewelry&Watches</a
+              >
+            </li>
+            <li
+              class="flex items-center gap-1 p-5 cursor-pointer hover:bg-[#0483D7]"
+            >
+              <a href="" class="text-white font-semibold font-open"
+                >Custom Menu</a
+              >
+              <img src="./assets/imgs/expand-with.svg" alt="" />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- thanh nav -->
     <nav class="max-w-[1120px] mx-auto mt-8 mb-[64px]">
       <ol class="flex items-center">
         <li>
-          <a href="" class="font-sm hover:text-[#0090F0]">Accueil</a>
+          <a href="" class="font-sm hover:text-[#0090F0]">Home</a>
           <span class="mx-2 text-gray-400" aria-hidden="true">/</span>
         </li>
         <li>
-          <a href="product.html" class="font-sm hover:text-[#0090F0]">Women’s Clothing</a>
+          <a href="product.html" class="font-sm text-[#0090F0]">Women’s Clothing</a>
         </li>
       </ol>
     </nav>
     <section class="mx-auto max-w-[1120px] grid grid-cols-4 gap-8 mt-14">
-      <aside class="col-span-1 ">
-        <div class="border-b w-full py-4 relative">
-          <span class="text-xl font-semibold font-open">Filter By </span>
-          <div class="absolute bg-[#0090F0] w-14 h-[2px] bottom-0"></div>
-        </div>
-        <form action="#" method="get">
-          <button
-            class="py-2 px-5 text-white font-normal text-sm flex gap-2 bg-black rounded-md my-5"
-          >
-            <img src="./assets/imgs/x.svg" alt="" /> Delete all
-          </button>
-          <!-- categories -->
-          <fieldset class="mb-5">
-            <legend class="font-semibold text-xl text-black mb-2">
-              Categories
-            </legend>
-            <ul class="my-1">
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Hot Categories (13)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Outerwear & Jackets (13)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Weddings & Events (13)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Bottoms (13)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Tops & Sets (13)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Accessories (13)</label>
-              </li>
-            </ul>
-          </fieldset>
-          <!-- brand -->
-          <fieldset class="mb-5">
-            <legend class="font-semibold text-xl text-black mb-2">Brand</legend>
-            <ul class="my-1">
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Graphic Corner (5)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">Studio Design (8)</label>
-              </li>
-              
-            </ul>
-          </fieldset>
-          <!-- price -->
-          <fieldset class="mb-5">
-            <legend class="font-semibold text-xl text-black mb-2">Price</legend>
-            <ul class="my-1">
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="radio"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">8,00 $US - 10,00 $US (2)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="radio"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">11,00 $US - 12,00 $US (3)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="radio"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">18,00 $US - 20,00 $US (4)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="radio"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">28,00 $US - 30,00 $US (4)</label>
-              </li>
-            </ul>
-          </fieldset>
-          <!-- size -->
-          <fieldset class="mb-5">
-            <legend class="font-semibold text-xl text-black mb-2">Price</legend>
-            <ul class="my-1">
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">S (2)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">M (2) (3)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">L (2)</label>
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input
-                  type="checkbox"
-                  id="cat-1"
-                  class="w-4 h-4 rounded-sm b bg-white"
-                />
-                <label for="cat-1" class="">XL (2)</label>
-              </li>
-            </ul>
-          </fieldset>
-          <!-- color -->
-          <fieldset class="mb-5">
-            <legend class="font-semibold text-xl text-black mb-2">Color</legend>
-            <ul class="my-1">
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input type="checkbox" id="color-gray" class="peer sr-only" />
-                <label
-                  for="color-gray"
-                  class="w-4 h-4 bg-gray-400 cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300 shadow-lg"
-                ></label>
-                <label
-                  for="color-gray"
-                  class="cursor-pointer hover:text-[#0090F0]"
-                  >Gray(1)</label
-                >
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input type="checkbox" id="color-white" class="peer sr-only" />
-                <label
-                  for="color-white"
-                  class="w-4 h-4 bg-white cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300 shadow-md"
-                ></label>
-                <label
-                  for="color-white"
-                  class="cursor-pointer hover:text-[#0090F0]"
-                  >White(4)</label
-                >
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input type="checkbox" id="cat-black" class="peer sr-only" />
-                <label
-                  for="cat-black"
-                  class="w-4 h-4 bg-black rounded-sm peer-checked:ring-2 ring-offset-1 ring-[#000000] border border-black shadow-md"
-                ></label>
-                <label
-                  for="cat-black"
-                  class="cursor-pointer hover:text-[#0090f0]"
-                  >Black(4)</label
-                >
-              </li>
-              <li class="flex items-center gap-1 mb-2 py-1">
-                <input type="checkbox" id="color-camel" class="peer sr-only" />
-                <label
-                  for="color-camel"
-                  class="w-4 h-4 rounded-sm bg-[#C19A6B] peer-checked:ring-1 ring-offset-2 ring-[#C19A6B] border border-[#C19A6B] shadow-md"
-                ></label>
-                <label
-                  for="color-camel"
-                  class="cursor-pointer hover:text-[#0090f0]"
-                  >Camel(1)</label
-                >
-              </li>
-            </ul>
-          </fieldset>
-          <!-- tag -->
-          <fieldset class="mb-9">
-            <legend class="font-semibold text-xl text-black mb-2">Color</legend>
-            <span class="w-full h-[1px] inline-block bg-gray-300 mb-5"></span>
-            <div class="flex flex-wrap gap-2">
-              <a
-                href="#"
-                class="py-3 px-5 border rounded-full text-sm font-normal font-open"
-                >Computer</a
-              >
-              <a
-                href="#"
-                class="py-3 px-5 border rounded-full text-sm font-normal font-open"
-                >Sale</a
-              >
-              <a
-                href="#"
-                class="py-3 px-5 border rounded-full text-sm font-normal font-open"
-                >Electronics</a
-              >
-              <a
-                href="#"
-                class="py-3 px-5 border rounded-full text-sm font-normal font-open"
-                >Jewelry & Watches</a
-              >
-            </div>
-          </fieldset>
-        </form>
-        <div>
-          <a href="#"><img src="./assets/imgs/h2-container.png" alt="" /></a>
-        </div>
-      </aside>
+      <aside class="col-span-1">
+  <div class="border-b w-full py-4 relative">
+    <span class="text-xl font-semibold font-open">Filter By</span>
+    <div class="absolute bg-[#0090F0] w-14 h-[2px] bottom-0"></div>
+  </div>
+  <form action="#" method="get">
+    <button class="py-2 px-5 text-white font-normal text-sm flex gap-2 items-center bg-black rounded-md my-5 hover:text-[#0090F0] transition-colors">
+      <img src="./assets/imgs/x.svg" alt="" /> Delete all
+    </button>
+    
+    <fieldset class="mb-5">
+      <legend class="font-semibold text-xl text-black mb-2">Categories</legend>
+      <ul class="my-1">
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-1" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-1" class="cursor-pointer hover:text-[#0090F0] transition-colors">Hot Categories (13)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-2" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-2" class="cursor-pointer hover:text-[#0090F0] transition-colors">Outerwear & Jackets (13)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-3" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-3" class="cursor-pointer hover:text-[#0090F0] transition-colors">Weddings & Events (13)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-4" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-4" class="cursor-pointer hover:text-[#0090F0] transition-colors">Bottoms (13)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-5" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-5" class="cursor-pointer hover:text-[#0090F0] transition-colors">Tops & Sets (13)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="cat-6" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="cat-6" class="cursor-pointer hover:text-[#0090F0] transition-colors">Accessories (13)</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="mb-5">
+      <legend class="font-semibold text-xl text-black mb-2">Brand</legend>
+      <ul class="my-1">
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="brand-1" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="brand-1" class="cursor-pointer hover:text-[#0090F0] transition-colors">Graphic Corner (5)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="brand-2" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="brand-2" class="cursor-pointer hover:text-[#0090F0] transition-colors">Studio Design (8)</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="mb-5">
+      <legend class="font-semibold text-xl text-black mb-2">Price</legend>
+      <ul class="my-1">
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="radio" name="price_filter" id="price-1" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="price-1" class="cursor-pointer hover:text-[#0090F0] transition-colors">8,00 $US - 10,00 $US (2)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="radio" name="price_filter" id="price-2" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="price-2" class="cursor-pointer hover:text-[#0090F0] transition-colors">11,00 $US - 12,00 $US (3)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="radio" name="price_filter" id="price-3" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="price-3" class="cursor-pointer hover:text-[#0090F0] transition-colors">18,00 $US - 20,00 $US (4)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="radio" name="price_filter" id="price-4" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="price-4" class="cursor-pointer hover:text-[#0090F0] transition-colors">28,00 $US - 30,00 $US (4)</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="mb-5">
+      <legend class="font-semibold text-xl text-black mb-2">Size</legend>
+      <ul class="my-1">
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="size-s" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="size-s" class="cursor-pointer hover:text-[#0090F0] transition-colors">S (2)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="size-m" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="size-m" class="cursor-pointer hover:text-[#0090F0] transition-colors">M (3)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="size-l" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="size-l" class="cursor-pointer hover:text-[#0090F0] transition-colors">L (2)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="size-xl" class="w-4 h-4 rounded-sm bg-white cursor-pointer" />
+          <label for="size-xl" class="cursor-pointer hover:text-[#0090F0] transition-colors">XL (2)</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="mb-5">
+      <legend class="font-semibold text-xl text-black mb-2">Color</legend>
+      <ul class="my-1">
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="color-gray" class="peer sr-only" />
+          <label for="color-gray" class="w-4 h-4 bg-gray-400 cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300 shadow-lg"></label>
+          <label for="color-gray" class="cursor-pointer hover:text-[#0090F0] transition-colors">Gray(1)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="color-white" class="peer sr-only" />
+          <label for="color-white" class="w-4 h-4 bg-white cursor-pointer peer-checked:ring-2 ring-offset-1 ring-gray-400 border border-gray-300 shadow-md"></label>
+          <label for="color-white" class="cursor-pointer hover:text-[#0090F0] transition-colors">White(4)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="color-black" class="peer sr-only" />
+          <label for="color-black" class="w-4 h-4 bg-black rounded-sm cursor-pointer peer-checked:ring-2 ring-offset-1 ring-[#000000] border border-black shadow-md"></label>
+          <label for="color-black" class="cursor-pointer hover:text-[#0090f0] transition-colors">Black(4)</label>
+        </li>
+        <li class="flex items-center gap-2 mb-2 py-1">
+          <input type="checkbox" id="color-camel" class="peer sr-only" />
+          <label for="color-camel" class="w-4 h-4 rounded-sm bg-[#C19A6B] cursor-pointer peer-checked:ring-1 ring-offset-2 ring-[#C19A6B] border border-[#C19A6B] shadow-md"></label>
+          <label for="color-camel" class="cursor-pointer hover:text-[#0090f0] transition-colors">Camel(1)</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="mb-9">
+      <legend class="font-semibold text-xl text-black mb-2">Tags</legend>
+      <span class="w-full h-[1px] inline-block bg-gray-300 mb-5"></span>
+      <div class="flex flex-wrap gap-2">
+        <a href="#" class="py-2 px-5 border rounded-full text-sm font-normal font-open hover:text-[#0090F0] transition-colors">Computer</a>
+        <a href="#" class="py-2 px-5 border rounded-full text-sm font-normal font-open hover:text-[#0090F0] transition-colors">Sale</a>
+        <a href="#" class="py-2 px-5 border rounded-full text-sm font-normal font-open hover:text-[#0090F0] transition-colors">Electronics</a>
+        <a href="#" class="py-2 px-5 border rounded-full text-sm font-normal font-open hover:text-[#0090F0] transition-colors">Jewelry & Watches</a>
+      </div>
+    </fieldset>
+  </form>
+  <div>
+    <a href="#"><img src="./assets/imgs/h2-container.png" alt="" class="w-full rounded-md" /></a>
+  </div>
+</aside>
       <div class="col-span-3 py-4">
         <h2 class="text-3xl font-semibold font-open mb-3">Women’s Clothing</h2>
             <p class="text-sm font-normal text-[#232323] mb-3" >From rompers to cute plaid shirts, this season is filled with layering options that keep you warm and stylish.</p>
@@ -450,369 +329,301 @@
             </div>
           </div>
           <!-- sanpham -->
-           <ul class="grid grid-cols-3 grid-rows-4 gap-7 mt-9 mb-7">
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/originals.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >-20%</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Madden by Steve Madde…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">23,90 $US</span>
-                  <del class="text-sm font-normal text-[#C81D1D]">19,12 $US</del>
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/juicy-couture-juicy-quilted-terry-track-jacket.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >-20%</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Juicy Couture Juicy Quilted Terry…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">35,90 $US</span>
-                  <del class="text-sm font-normal text-[#C81D1D]">28,72 $US</del>
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Juicy Couture Juicy Quilted Terry…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">29,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/the-adventure-begins-framed-poster.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">New Balance Arishi Sport v1</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">29,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/calvin-klein-jeans-reflective-logo-full-zip.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Calvin Klein Jeans Reflective Log…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">29,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/madden-by-steve-madden-cale-6.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Madden by Steve Madden Cale 6</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">29,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Trans-Weight Hooded Wind and…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">29,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/Link.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Water and Wind Resistant Insul…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">19,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/new-balance-fresh-foam-kaymin.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">New Balance Fresh Foam Kaymin</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">18,90 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/brown-bear-cushion.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Juicy Couture Solid Sleeve Puffer…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">18,90 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">New Balance Fresh Foam LAZR …</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">18,90 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            <li> 
-              <a href="detail.html">
-                <div class="flex flex-col">
-                  <div class="relative">
-                    <img
-                      src="./assets/imgs/Link2.png"
-                      alt=""
-                    />
-                  <span
-                    class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2"
-                    >New</span
-                  >
-                </div>
-                <div class="flex flex-col gap-2 items-center mt-5">
-                  <h3 class="text-base font-normal mt-2">Juicy Couture Tricot Logo Stripe J…</h3>
-                  <div class="flex">
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star.svg" alt="" />
-                    <img src="./assets/imgs/star-gray.svg" alt="" />
-                  </div>
-                  <div class="flex gap-2 mt-1">
-                  <span class="text-sm font-normal">9,00 $US</span>
-                  
-                </div>
-                </div>
-              </div>
-              </a>
-            </li>
-            
-      </ul>
+          <ul class="grid grid-cols-3 grid-rows-4 gap-7 mt-9 mb-7">
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/originals.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2">-20%</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Madden by Steve Madde…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <div class="flex gap-2 items-center">
+          <span class="text-sm font-normal">23,90 $US</span>
+          <del class="text-sm font-normal text-[#C81D1D]">19,12 $US</del>
+        </div>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/juicy-couture-juicy-quilted-terry-track-jacket.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#C81D1D] px-3 py-1 text-xs rounded-full top-2 left-2">-20%</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Juicy Couture Juicy Quilted Terry…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <div class="flex gap-2 items-center">
+          <span class="text-sm font-normal">35,90 $US</span>
+          <del class="text-sm font-normal text-[#C81D1D]">28,72 $US</del>
+        </div>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/brixton-patrol-all-terrain-anorak-jacket.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Juicy Couture Juicy Quilted Terry…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">29,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/the-adventure-begins-framed-poster.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">New Balance Arishi Sport v1</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">29,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/calvin-klein-jeans-reflective-logo-full-zip.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Calvin Klein Jeans Reflective Log…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">29,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto aspect-square  overflow-hidden">
+          <img src="./assets/imgs/madden-by-steve-madden-cale-6.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Madden by Steve Madden Cale 6</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">29,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/trans-weight-hooded-wind-and-water-resistant-shell.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Trans-Weight Hooded Wind and…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">29,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/Link.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Water and Wind Resistant Insul…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">19,00 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/new-balance-fresh-foam-kaymin.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">New Balance Fresh Foam Kaymin</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">18,90 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/brown-bear-cushion.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Juicy Couture Solid Sleeve Puffer…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">18,90 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/new-balance-fresh-foam-lazr-v1-sport.jpg.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">New Balance Fresh Foam LAZR …</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">18,90 $US</span>
+      </div>
+    </article>
+  </li>
+
+  <li>
+    <article class="flex flex-col items-center group">
+      <a href="detail.html" class="relative block w-full">
+        <figure class="max-w-[255px] w-full h-auto mx-auto aspect-square overflow-hidden">
+          <img src="./assets/imgs/Link2.png" alt="" class="w-full h-full object-cover" />
+        </figure>
+        <span class="absolute text-white bg-[#0090f0] px-3 py-1 text-xs rounded-full top-2 left-2">New</span>
+      </a>
+      <div class="flex flex-col gap-2 items-center text-center">
+        <a href="detail.html">
+          <h3 class="text-base font-normal group-hover:text-[#0090f0] transition-colors mt-2">Juicy Couture Tricot Logo Stripe J…</h3>
+        </a>
+        <div class="flex">
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star.svg" alt="" />
+          <img src="./assets/imgs/star-gray.svg" alt="" />
+        </div>
+        <span class="text-sm font-normal">9,00 $US</span>
+      </div>
+    </article>
+  </li>
+</ul>
           
           
           <div class="flex items-center justify-between bg-[#f5f5f5] px-4 py-3 rounded-md w-full max-w-5xl font-sans ">
@@ -830,261 +641,310 @@
         </div>
       </div>
     </section>
-    <footer class="mt-14">
-        <div class="bg-[#0483D7] mb-10">
-          <section
-            class="max-w-[1120px] mx-auto py-8 flex items-center justify-between"
+   <footer class="mt-14">
+      <div class="bg-[#0483D7] mb-10">
+        <div
+          class="max-w-[1120px] mx-auto py-8 px-4 md:px-0 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-0"
+        >
+          <div>
+            <span class="text-2xl font-semibold text-white"
+              >Sign Up For Newsletters</span
+            >
+            <p class="text-sm font-normal text-white opacity-[0.7] mt-1">
+              Be the First to Know. Sign up for newsletter today !
+            </p>
+          </div>
+          <form
+            action=""
+            class="relative rounded-full overflow-hidden w-full lg:w-auto"
           >
-            <div class="">
-              <span class="text-2xl font-semibold text-white"
-                >Sign Up For Newsletters</span
-              >
-              <p class="text-sm font-normal text-white opacity-[0.7]">
-                Be the First to Know. Sign up for newsletter today !
-              </p>
-            </div>
-            <form action="" class="relative rounded-full overflow-hidden">
-              <!-- <div class=""> -->
-              <input
-                type="text"
-                placeholder="Your email address"
-                class="py-3 px-5 border-none outline-none pr-[200px]"
-              />
-              <button
-                class="py-3 px-5 text-white text-sm bg-black top-0 right-0 absolute"
-              >
-                Sign Up
-              </button>
-              <!-- </div> -->
-            </form>
-            <ul class="flex gap-5">
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/face.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/twist.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/youtube.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/gogle.svg" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="./assets/imgs/insta.svg" alt="" />
-                </a>
-              </li>
-            </ul>
-          </section>
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="py-3 px-5 border-none outline-none pr-[120px] md:pr-[200px] w-full"
+            />
+            <button
+              class="py-3 px-5 text-white text-sm bg-black top-0 right-0 absolute h-full"
+            >
+              Sign Up
+            </button>
+          </form>
+          <ul class="flex gap-5">
+            <li>
+              <a href=""><img src="./assets/imgs/face.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/twist.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/youtube.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/gogle.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./assets/imgs/insta.svg" alt="" /></a>
+            </li>
+          </ul>
         </div>
-        <section></section>
+      </div>
 
-        <section class="flex justify-between max-w-[1120px] mx-auto mb-16">
-          <div class="flex gap-4">
-            <img src="./assets/imgs/local.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base"
-                >4710-4890 Breckinridge St, USK</span
-              >
-              <p class="text-[#888888] text-xs">Contact Info!</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <img src="./assets/imgs/email.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base">demo@posthemes.com</span>
-              <p class="text-[#888888] text-xs">Orders Support!</p>
-            </div>
-          </div>
-          <div class="flex gap-4">
-            <img src="./assets/imgs/phone.svg" alt="" />
-            <div>
-              <span class="font-semibold text-base"
-                >+1 (123) 888 9999, +1 (678) 777 8888</span
-              >
-              <p class="text-[#888888] text-xs">Free support line!</p>
-            </div>
-          </div>
-        </section>
-        <nav class="grid grid-cols-4 max-w-[1120px] mx-auto">
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-          <div class="px-4">
-            <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
-              Information
-              <span
-                class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
-              ></span>
-            </h3>
-
-            <ul>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Delivery</a
-                >
-              </li>
-
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >About us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Secure payment</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Contact us</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]"
-                  >Sitemap</a
-                >
-              </li>
-              <li>
-                <a href="" class="font-normal text-sm text-[#666666]">Stores</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="bg-[#F7F7F7]">
-          <div
-            class="flex justify-between mx-auto max-w-[1120px] bg-[#F7F7F7] py-5"
-          >
-            <p>Copyright <span>Posthemes</span>. All Right Reserved</p>
-            <img src="./assets/imgs/payment.png.svg" alt="" />
+      <address
+        class="not-italic flex flex-col md:flex-row justify-between max-w-[1120px] mx-auto mb-16 px-4 md:px-0 gap-8 md:gap-0"
+      >
+        <div class="flex gap-4">
+          <img src="./assets/imgs/local.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block"
+              >4710-4890 Breckinridge St, USK</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Contact Info!</p>
           </div>
         </div>
-      </footer>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/email.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >demo@posthemes.com</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Orders Support!</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <img src="./assets/imgs/phone.svg" alt="" class="mt-1 w-6 h-6" />
+          <div>
+            <span class="font-semibold text-base block hover:text-[#0090f0]"
+              >+1 (123) 888 9999, +1 (678) 777 8888</span
+            >
+            <p class="text-[#888888] text-xs mt-1">Free support line!</p>
+          </div>
+        </div>
+      </address>
+
+      <nav
+        class="grid grid-cols-2 md:grid-cols-4 max-w-[1120px] mx-auto gap-y-8 px-4 md:px-0"
+      >
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Information
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Custom Links
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            My Account
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <h3 class="font-semibold text-base border-b-2 pb-3 relative mb-6">
+            Company
+            <span
+              class="bg-[#0090F0] w-11 absolute left-0 h-[2px] bottom-[-2px]"
+            ></span>
+          </h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Delivery</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Secure payment</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Contact us</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Sitemap</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="font-normal text-sm text-[#666666] hover:text-[#0090f0]"
+                >Stores</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="bg-[#F7F7F7] mt-10">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center mx-auto max-w-[1120px] bg-[#F7F7F7] py-5 px-4 md:px-0 gap-4 md:gap-0"
+        >
+          <p class="text-sm">
+            Copyright <span class="font-semibold">Posthemes</span>. All Right
+            Reserved
+          </p>
+          <img src="./assets/imgs/payment.png.svg" alt="" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
